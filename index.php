@@ -3,8 +3,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<?php require_once('bdd_app_gst_connect/allscirpt.inc.php');?>
-<title><?php echo $entete?></title>
+
 <link rel="shortcut" href="lgo.png" >
 
 <?php  include('bdd_app_gst_connect/class_authetification.php');?>
