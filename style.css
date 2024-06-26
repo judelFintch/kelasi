@@ -1,0 +1,72 @@
+/* CSS gestion ecole */
+body{
+margin:0;
+/*background-image:url(imgs/nice-background.jpeg);*/
+background-size:100px 50px;}
+#cont{
+width:80%;
+margin:auto;
+height:100%;
+font-size: 14px;
+text-decoration: none;
+
+}
+a:hover{ text-decoration: none;
+
+
+
+}
+  
+  #logos{ margin-top: -80px; float: right; margin-left: 200px
+
+  }
+  #notification{ text-align:right;
+}
+
+footer{
+text-align:center;
+}
+h1{
+color:}
+
+#he{
+background-color:;
+color:#fff;
+}
+
+a :hover{
+	text-decoration: none;
+}
+
+
+.entete{
+	color: #d9534f
+}
+
+
+input{
+background - color: lightyellow ;
+}
+input:hover{
+background - color: lightgreen ;
+}
+input:focus{
+outline:#fee ;
+background - color: lightblue ;
+color:blue ;
+font-size:px;
+}
+
+
+.correction{
+	background-color: ;
+
+
+
+}
+
+a{
+	font-size: 15px
+}
+
+

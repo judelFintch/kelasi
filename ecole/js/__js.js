@@ -1,0 +1,3 @@
+$(function judelTestSLIDER(argument) {
+	// body...
+})
