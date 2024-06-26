@@ -1,15 +1,17 @@
-
 <?php
-function Authenfication($login, $passwd) {
-    global $bdd; // Assurez-vous que $bdd est accessible globalement dans cette fonction
-    
+ob_start();
+function Authentication($login, $passwd) {
+    global $bdd;
+    // Démarrer la session si elle n'est pas déjà démarrée
+    if (session_status() == PHP_SESSION_NONE) {
+        session_start();
+    }
     try {
         // Utilisation d'une requête préparée pour éviter les injections SQL
         $stmt = $bdd->prepare("SELECT * FROM user WHERE login = :login");
-        $stmt->bindParam(':login', $login);
+        $stmt->bindParam(':login', $login, PDO::PARAM_STR);
         $stmt->execute();
-        $resultat = $stmt->fetch();
-        var_dump($resultat);
+        $resultat = $stmt->fetch(PDO::FETCH_ASSOC);
 
         if ($resultat) {
             // Utilisateur trouvé, vérifiez le mot de passe
@@ -20,41 +22,40 @@ function Authenfication($login, $passwd) {
 
                 switch ($resultat['level']) {
                     case 1:
+                         header('Location:dashboard.php');
                     case 2:
                     case 3:
                     case 4:
                     case 5:
                     case 6:
-                        header('Location: ecole/accueil.php');
+                       
                         exit();
-                        break;
                     case 8:
                         $_SESSION['aleatoire'] = rand(1, 9) . $_SESSION['user'];
                         header('Location: super_user/vue/acceuil.php');
                         exit();
-                        break;
                     default:
                         $_SESSION['error'] = 'Niveau d\'accès inconnu';
-                        header('Location: login.php');
+                       //header('Location: login.php');
                         exit();
-                        break;
                 }
             } else {
                 // Mot de passe incorrect
                 $_SESSION['error'] = 'Identifiant ou mot de passe incorrect';
-                header('Location: login.php');
+                //header('Location: login.php');
                 exit();
             }
         } else {
             // Aucun utilisateur trouvé avec ce login
             $_SESSION['error'] = 'Identifiant ou mot de passe incorrect';
-            //header('Location: login.php');
+            header('Location: login.php');
             exit();
         }
     } catch (PDOException $e) {
-        echo "Erreur de requête : " . $e->getMessage();
         // Gérer l'erreur de requête ici
-
-        var_dump($e->getMessage());
+        $_SESSION['error'] = "Erreur de requête : " . $e->getMessage();
+        //header('Location: login.php');
+        exit();
     }
 }
+?>

@@ -1,15 +1,5 @@
-<?php
-session_start();
-// Vérifier si une session est déjà active
-if (isset($_SESSION['login'])) {
-    // Rediriger vers la page dashboard ou une autre page sécurisée
-    header('Location: dashboard.php');
-    exit();
-}
-?>
 <!doctype html>
 <html lang="en">
-
 <head>
     <script type="text/javascript" id="debugbar_loader" data-time="1666272205" src="index.php?debugbar"></script>
     <script type="text/javascript" id="debugbar_dynamic_script"></script>
@@ -21,7 +11,7 @@ if (isset($_SESSION['login'])) {
     <meta content="Themesbrand" name="author" />
     <link rel="shortcut icon" href="public/images/favicon.ico">
     <link rel="shortcut icon" type="image/x-icon" href="public/img/favicon.png">
-    <?php include 'css.html'; ?>
+    <?php //include 'css.html'; ?>
     <?php require_once('config/allscirpt.inc.php');?>
     <?php  include('config/class_authetification.php');?>
 
@@ -83,7 +73,7 @@ if (isset($_SESSION['login'])) {
           if(isset($_POST['login']) and (isset($_POST['psswd']))){
                $login=$_POST['login'];
                $psswd=$_POST['psswd'];
-               Authenfication($login,$psswd);
+               Authentication($login,$psswd);
                }
       ?>
     <?php include 'css.html'; ?>
