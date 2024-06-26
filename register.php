@@ -40,21 +40,16 @@ if (isset($_SESSION['login'])) {
 </head>
 
 <body class="account-page">
-
-
     <div class="main-wrapper">
         <div class="account-content">
             <div class="container">
-
                 <div class="account-logo">
                     <a href="dashboard"><img src="public/img/logo2.png" alt="Dreamguy's Technologies"></a>
                 </div>
-
                 <div class="account-box">
                     <div class="account-wrapper">
                         <h3 class="account-title">Creation Compte</h3>
                         <p class="account-subtitle"></p>
-
                         <form class="needs-validation custom-form mt-4 pt-2" novalidate method="post" action="auth/register.php">
                             <div class="form-group">
                                 <label for="useremail" class="form-label">Email</label>

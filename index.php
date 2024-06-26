@@ -11,7 +11,7 @@
     <meta content="Themesbrand" name="author" />
     <link rel="shortcut icon" href="public/images/favicon.ico">
     <link rel="shortcut icon" type="image/x-icon" href="public/img/favicon.png">
-    <?php //include 'css.html'; ?>
+    <?php include 'css.html'; ?>
     <?php require_once('config/allscirpt.inc.php');?>
     <?php  include('config/class_authetification.php');?>
 

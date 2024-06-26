@@ -12,7 +12,6 @@ function Authentication($login, $passwd) {
         $stmt->bindParam(':login', $login, PDO::PARAM_STR);
         $stmt->execute();
         $resultat = $stmt->fetch(PDO::FETCH_ASSOC);
-
         if ($resultat) {
             // Utilisateur trouvé, vérifiez le mot de passe
             if (password_verify($passwd, $resultat['motp'])) {
