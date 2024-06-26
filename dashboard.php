@@ -398,18 +398,8 @@
             </div>
         </div>
 
-
-        
-
-
-
-
-
-        <?php include 'js.html'; ?>
-</body>
-
-<style type="text/css">
-  body {
+        <style type="text/css">
+            body {
     background-color: #ffffff;
     color: #333333; /* Couleur de texte principale pour une bonne lisibilité */
     font-family: Arial, sans-serif;
@@ -542,9 +532,18 @@
     }
 }
 
+            </style>
 
 
-    </style>
+        
+
+
+
+
+
+        <?php include 'js.html'; ?>
+</body>
+
 
 
 
