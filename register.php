@@ -95,7 +95,7 @@ if (isset($_SESSION['login'])) {
                                 <button class="btn btn-primary account-btn" type="submit">Register</button>
                             </div>
                             <div class="account-footer">
-                                <p>Already have an account? <a href="index">Login</a></p>
+                                <p>Already have an account? <a href="index.php">Login</a></p>
                             </div>
                         </form>
 
