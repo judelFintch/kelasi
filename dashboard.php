@@ -375,18 +375,18 @@
                         </div>
                     </div>
 
-                    <div class="col-md-6 col-sm-6 col-lg-6 col-xl-3">
-                        <div class="card dash-widget">
-                            <a href="">
-                            <div class="card-body">
-                                <span class="dash-widget-icon"><i class="fa fa-cubes"></i></span>
-                                <div class="dash-widget-info">
-                                    <h3>DIR MAT</h3>
-                                </div>
-                            </div>
-                            </a>
+                    <div class="col-md-6 col-sm-6 col-lg-4 col-xl-3">
+            <div class="card dash-widget">
+                <a href="#">
+                    <div class="card-body">
+                        <span class="dash-widget-icon"><i class="fa fa-money-bill-alt"></i></span>
+                        <div class="dash-widget-info">
+                            <h3>CAISSE</h3>
                         </div>
                     </div>
+                </a>
+            </div>
+        </div>
                 </div>
 
 
@@ -407,5 +407,146 @@
 
         <?php include 'js.html'; ?>
 </body>
+
+<style type="text/css">
+  body {
+    background-color: #ffffff;
+    color: #333333; /* Couleur de texte principale pour une bonne lisibilité */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin-top: 20px;
+    padding: 0 15px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.col-md-6, .col-sm-6, .col-lg-4, .col-xl-3 {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-bottom: 30px;
+}
+
+.dash-widget {
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    background-color: #ffffff; /* Assurez-vous que les cartes ont un fond blanc */
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    border: 1px solid #e0e0e0; /* Ajout de bordures pour une meilleure délimitation */
+}
+
+.dash-widget:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.dash-widget-icon {
+    font-size: 2.5em;
+    color: #ffffff; /* Blanc pour contraste sur fond orange */
+    background-color: #ff902f; /* Utilisation de la couleur principale */
+    padding: 15px;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    width: 70px;
+    height: 70px;
+    margin-right: 15px;
+}
+
+.dash-widget-info {
+    flex: 1;
+    text-align: left;
+}
+
+.card-body {
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+
+.card-body h3 {
+    margin: 0;
+    font-size: 1.2em; /* Réduction de la taille de la police */
+    color: #ff902f; /* Utilisation de la couleur principale pour les titres */
+}
+
+/* Texte des liens */
+.card-body a {
+    color: #333333; /* Couleur de texte principale pour une bonne lisibilité */
+    text-decoration: none;
+}
+
+.card-body a:hover {
+    color: #ff902f; /* Couleur principale pour les effets de survol */
+}
+
+/* Styles supplémentaires pour améliorer l'apparence générale */
+.alert {
+    color: #ffffff;
+    background-color: #ff902f;
+    border-color: #ff902f;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.alert h3 {
+    margin: 0;
+    font-size: 1.25em;
+}
+
+.bg-danger {
+    color: #ffffff;
+    background-color: #dc3545;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+@media (max-width: 767.98px) {
+    .col-sm-6 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .col-md-6 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .col-lg-4 {
+        flex: 0 0 33.33333%;
+        max-width: 33.33333%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .col-xl-3 {
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+}
+
+
+
+    </style>
+
+
+
 
 </html>
