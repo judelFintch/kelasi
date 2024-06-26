@@ -1,5 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+<?php 
+  session_start();
+                if(isset($_SESSION['user'])){ 
+
+                    echo "bonjour";                   
+                } else{
+                    header("Location:index.php"); 
+}
+
+?>
 
 <head>
     <script type="text/javascript" id="debugbar_loader" data-time="1666272724" src="index.php?debugbar"></script>
