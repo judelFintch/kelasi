@@ -14,7 +14,6 @@
     <title>Cs Berakha</title>
     <link rel="shortcut icon" type="image/x-icon" href="public/img/favicon.png">
     <?php include 'css.html'; ?>
-
 </head>
 <body>
     <div class="main-wrapper">
@@ -33,7 +32,7 @@
             </a>
 
             <div class="page-title-box">
-                <h3>Dreamguy's Technologies</h3>
+                <h3>CRM Berakha</h3>
             </div>
 
             <a id="mobile_btn" class="mobile_btn" href="#sidebar"><i class="fa fa-bars"></i></a>
@@ -223,55 +222,189 @@
                     </div>
                 </div>
 
+
                 <div class="row">
                     <div class="col-md-6 col-sm-6 col-lg-6 col-xl-3">
                         <div class="card dash-widget">
+                            <a href="">
                             <div class="card-body">
                                 <span class="dash-widget-icon"><i class="fa fa-cubes"></i></span>
                                 <div class="dash-widget-info">
-                                    <h3>112</h3>
-                                    <span>Projects</span>
+                                    <h3>CAISSE</h3>
+                                    
                                 </div>
                             </div>
+                            </a>
                         </div>
                     </div>
                     <div class="col-md-6 col-sm-6 col-lg-6 col-xl-3">
                         <div class="card dash-widget">
+                            <a href="">
                             <div class="card-body">
-                                <span class="dash-widget-icon"><i class="fa fa-usd"></i></span>
+                                <span class="dash-widget-icon"><i class="fa fa-cubes"></i></span>
                                 <div class="dash-widget-info">
-                                    <h3>44</h3>
-                                    <span>Clients</span>
+                                    <h3>HR</h3>
+                                    
                                 </div>
                             </div>
+                            </a>
                         </div>
                     </div>
+
                     <div class="col-md-6 col-sm-6 col-lg-6 col-xl-3">
                         <div class="card dash-widget">
+                            <a href="">
                             <div class="card-body">
-                                <span class="dash-widget-icon"><i class="fa fa-diamond"></i></span>
+                                <span class="dash-widget-icon"><i class="fa fa-cubes"></i></span>
                                 <div class="dash-widget-info">
-                                    <h3>37</h3>
-                                    <span>Tasks</span>
+                                    <h3>EMPLOYES</h3>
                                 </div>
                             </div>
+                            </a>
                         </div>
                     </div>
+
                     <div class="col-md-6 col-sm-6 col-lg-6 col-xl-3">
                         <div class="card dash-widget">
+                            <a href="">
                             <div class="card-body">
-                                <span class="dash-widget-icon"><i class="fa fa-user"></i></span>
+                                <span class="dash-widget-icon"><i class="fa fa-cubes"></i></span>
                                 <div class="dash-widget-info">
-                                    <h3>218</h3>
-                                    <span>Employees</span>
+                                    <h3>PAYROLL</h3>
                                 </div>
                             </div>
+                            </a>
                         </div>
                     </div>
                 </div>
 
+                <div class="row">
+                    <div class="col-md-6 col-sm-6 col-lg-6 col-xl-3">
+                        <div class="card dash-widget">
+                            <a href="">
+                            <div class="card-body">
+                                <span class="dash-widget-icon"><i class="fa fa-cubes"></i></span>
+                                <div class="dash-widget-info">
+                                    <h3>PRE-INSCR</h3>
+                                    
+                                </div>
+                            </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-lg-6 col-xl-3">
+                        <div class="card dash-widget">
+                            <a href="">
+                            <div class="card-body">
+                                <span class="dash-widget-icon"><i class="fa fa-cubes"></i></span>
+                                <div class="dash-widget-info">
+                                    <h3>STOCK</h3>
+                                    
+                                </div>
+                            </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-sm-6 col-lg-6 col-xl-3">
+                        <div class="card dash-widget">
+                            <a href="">
+                            <div class="card-body">
+                                <span class="dash-widget-icon"><i class="fa fa-cubes"></i></span>
+                                <div class="dash-widget-info">
+                                    <h3>VENTE</h3>
+                                </div>
+                            </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-sm-6 col-lg-6 col-xl-3">
+                        <div class="card dash-widget">
+                            <a href="">
+                            <div class="card-body">
+                                <span class="dash-widget-icon"><i class="fa fa-cubes"></i></span>
+                                <div class="dash-widget-info">
+                                    <h3>ELEVES</h3>
+                                </div>
+                            </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="row">
+                    <div class="col-md-6 col-sm-6 col-lg-6 col-xl-3">
+                        <div class="card dash-widget">
+                            <a href="">
+                            <div class="card-body">
+                                <span class="dash-widget-icon"><i class="fa fa-cubes"></i></span>
+                                <div class="dash-widget-info">
+                                    <h3>PRE-INSCR</h3>
+                                    
+                                </div>
+                            </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-lg-6 col-xl-3">
+                        <div class="card dash-widget">
+                            <a href="">
+                            <div class="card-body">
+                                <span class="dash-widget-icon"><i class="fa fa-cubes"></i></span>
+                                <div class="dash-widget-info">
+                                    <h3>DIR-PRI</h3>
+                                    
+                                </div>
+                            </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-sm-6 col-lg-6 col-xl-3">
+                        <div class="card dash-widget">
+                            <a href="">
+                            <div class="card-body">
+                                <span class="dash-widget-icon"><i class="fa fa-cubes"></i></span>
+                                <div class="dash-widget-info">
+                                    <h3>DIR SEC</h3>
+                                </div>
+                            </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-sm-6 col-lg-6 col-xl-3">
+                        <div class="card dash-widget">
+                            <a href="">
+                            <div class="card-body">
+                                <span class="dash-widget-icon"><i class="fa fa-cubes"></i></span>
+                                <div class="dash-widget-info">
+                                    <h3>DIR MAT</h3>
+                                </div>
+                            </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+
+
             </div>
         </div>
+
+
+        
+
+
+
+
+
         <?php include 'js.html'; ?>
 </body>
 

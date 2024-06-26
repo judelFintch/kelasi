@@ -16,7 +16,6 @@
     <?php  include('config/class_authetification.php');?>
 
 </head>
-
 <body class="account-page">
     <div class="main-wrapper">
         <div class="account-content">
@@ -68,7 +67,6 @@
             </div>
         </div>
     </div>
-
     <?php
           if(isset($_POST['login']) and (isset($_POST['psswd']))){
                $login=$_POST['login'];
@@ -77,7 +75,5 @@
                }
       ?>
     <?php include 'css.html'; ?>
-
 </body>
-
 </html>
