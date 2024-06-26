@@ -3,11 +3,11 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<?php require_once('bdd_app_gst_connect/allscirpt.inc.php');?>
+<?php require_once('config/allscirpt.inc.php');?>
 <title><?php echo $entete?></title>
 <link rel="shortcut" href="lgo.png" >
 
-<?php  include('bdd_app_gst_connect/class_authetification.php');?>
+<?php  include('config/class_authetification.php');?>
 <link href="css/metro.css" rel="stylesheet">
     <link href="css/metro-icons.css" rel="stylesheet">
     <link href="css/metro-responsive.css" rel="stylesheet">
