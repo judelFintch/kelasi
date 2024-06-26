@@ -1,6 +1,5 @@
 <?php
 session_start();
-
 // Vérifier si une session est déjà active
 if (isset($_SESSION['login'])) {
     // Rediriger vers la page dashboard ou une autre page sécurisée

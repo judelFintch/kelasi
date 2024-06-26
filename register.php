@@ -98,25 +98,15 @@ if (isset($_SESSION['login'])) {
                                 <p>Already have an account? <a href="index.php">Login</a></p>
                             </div>
                         </form>
-
-
                     </div>
                 </div>
             </div>
         </div>
     </div>
-
-
-
-
     <script src="public/js/jquery-3.6.0.min.js"></script>
-
     <script src="public/js/bootstrap.bundle.min.js"></script>
-
     <script src="public/js/jquery.slimscroll.min.js"></script>
-
     <script src="public/js/select2.min.js"></script>
-
     <script src="public/js/moment.min.js"></script>
     <script src="public/js/bootstrap-datetimepicker.min.js"></script>
 
