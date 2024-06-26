@@ -1,34 +1,38 @@
 <?php
-   function Authenfication($login,$passwd){
-		global $bdd;	
-		//requette
-		$requete = $bdd->query("SELECT * FROM user WHERE login='$login' AND motp='$passwd'");
-		$resultat = $requete->fetch();
-		if($resultat == 0){
-			echo '<div class="alert alert-danger" id="cont" ><h3><center>Authenfication echouée!</h3></center></p><br /><br />';
-		 }
-		 elseif($resultat['login'] == $login AND $resultat['motp'] == $passwd ){
-		 	switch ($resultat['level']) {
-		 		case 1 or 2 or 3 or 4 or 5 or  6:
-				$_SESSION['login'] = $resultat['login'];
-				$_SESSION['level']=$resultat['level'];
-				$_SESSION['user'] = $resultat['nomuser'];
-		 	    header('Location:ecole/accueil.php');
-		 		break;
-		 		case 8:		
-				$_SESSION['login'] = $resultat['login'];
-				$_SESSION['user'] = $resultat['nomuser'];
-				$_SESSION['aleatoire']=rand(1,9).$_SESSION['user'];
-		 	    header('Location:super_user/vue/acceuil.php');
-		 		break;
-		 		default:
-		 			break;
-		 	}
-		 }
-		 else{
-		 	echo '<div class="bg-danger">Authenfication echouée</div>';
-		 }
+
+function Authenfication($login, $passwd) {
+    global $bdd;	
+    
+    // Use prepared statements to prevent SQL injection
+    $stmt = $bdd->prepare("SELECT * FROM user WHERE login = :login");
+    $stmt->bindParam(':login', $login);
+    $stmt->execute();
+    $resultat = $stmt->fetch();
+
+    // Check if user exists and password matches (assuming passwords are hashed)
+    if ($resultat && password_verify($passwd, $resultat['motp'])) {
+        $_SESSION['login'] = $resultat['login'];
+        $_SESSION['user'] = $resultat['nomuser'];
+        $_SESSION['level'] = $resultat['level'];
+        
+        switch ($resultat['level']) {
+            case 1:
+            case 2:
+            case 3:
+            case 4:
+            case 5:
+            case 6:
+                header('Location: ecole/accueil.php');
+                break;
+            case 8:
+                $_SESSION['aleatoire'] = rand(1, 9) . $_SESSION['user'];
+                header('Location: super_user/vue/acceuil.php');
+                break;
+            default:
+                echo '<div class="alert alert-danger">Niveau d\'accès inconnu</div>';
+                break;
+        }
+    } else {
+        #ajoute de session error or success
+    }
 }
-
-
-

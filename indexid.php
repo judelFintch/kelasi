@@ -1,4 +1,4 @@
-<?php session_start();$token=$_SESSION['token']=md5(uniqid(mt_rand(),true)); ?>
+<?php session_start() ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -6,7 +6,6 @@
 <?php require_once('config/allscirpt.inc.php');?>
 <title><?php echo $entete?></title>
 <link rel="shortcut" href="lgo.png" >
-
 <?php  include('config/class_authetification.php');?>
 <link href="css/metro.css" rel="stylesheet">
     <link href="css/metro-icons.css" rel="stylesheet">

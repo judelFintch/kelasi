@@ -7,5 +7,5 @@
   session_destroy();
   // Destruction du tableau de session
   unset($_SESSION);
-header('Location:../index.php');
+header('Location:index.php');
 ?>
