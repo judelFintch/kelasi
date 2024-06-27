@@ -1,5 +1,5 @@
 <?php 
-  session_start();if(isset($_SESSION['user'])){ require_once('../bdd_app_gst_connect/allscirpt.inc.php');} else{header("Location:../index.php"); 
+  session_start();if(isset($_SESSION['user'])){ require_once('../config/allscirpt.inc.php');} else{header("Location:../index.php"); 
 }?>
 <!DOCTYPE html>
    <html>
