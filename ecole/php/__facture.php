@@ -1,5 +1,5 @@
 <?php
-  require_once('../../bdd_app_gst_connect/allscirpt.inc.php');
+  require_once('../../config/allscirpt.inc.php');
   function InformationEleve($matricule){
        	global $bdd;
       	$selection_informationEleve=$bdd->query("SELECT * FROM eleve WHERE matricule='$matricule'");

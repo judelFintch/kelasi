@@ -1,5 +1,5 @@
 <?php 
-	require_once('../../bdd_app_gst_connect/allscirpt.inc.php');
+	require_once('../../config/allscirpt.inc.php');
 
     $selection_anne_scolaire=$bdd->query("SELECT  annee from anne_scolaire order by id desc");
 	$reception_anne=$selection_anne_scolaire->fetch();

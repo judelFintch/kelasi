@@ -1,5 +1,5 @@
 <?php
-require_once('../../bdd_app_gst_connect/allscirpt.inc.php');
+require_once('../../config/allscirpt.inc.php');
 /* veillez bien à vous connecter à votre base de données */
 $term = $_GET['term'];
 $requete = $bdd->prepare("SELECT DISTINCT motif FROM depense WHERE motif LIKE :term   " ); // j'effectue ma requête SQL grâce au mot-clé LIKE

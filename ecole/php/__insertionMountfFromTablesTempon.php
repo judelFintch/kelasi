@@ -1,5 +1,5 @@
 <?php
-require_once('../../bdd_app_gst_connect/allscirpt.inc.php');
+require_once('../../config/allscirpt.inc.php');
 //informations des l eleves obtenu a l aide du matricule
 function InformationEleve($matricule){
        	global $bdd;

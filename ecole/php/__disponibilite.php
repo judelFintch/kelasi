@@ -2,7 +2,7 @@
 //
     if (isset($_POST['status'])){
     	# code...
-    	 require_once('../../bdd_app_gst_connect/allscirpt.inc.php');
+    	 require_once('../../config/allscirpt.inc.php');
 
 
 extract($_POST);

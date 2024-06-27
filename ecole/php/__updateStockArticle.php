@@ -1,5 +1,5 @@
 <?php
-require_once('../../bdd_app_gst_connect/allscirpt.inc.php');
+require_once('../../config/allscirpt.inc.php');
 //cette fonction nous permet de recuper la quantite en stock de  l article passer en stock
 function verificationQte($idArt){
 	global $bdd;

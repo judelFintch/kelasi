@@ -1,5 +1,5 @@
 <?php
-require_once('../../bdd_app_gst_connect/allscirpt.inc.php');
+require_once('../../config/allscirpt.inc.php');
    if(isset($_POST['litige'])){
     extract($_POST);
     $tabarticle=insertionAutresTempons($libelle,$matricule,$annacad_old);

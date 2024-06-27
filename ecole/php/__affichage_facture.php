@@ -1,6 +1,6 @@
 <?php
 //class permettant de supprimer une facture et la mettre dans une corbeille
- require_once('../../bdd_app_gst_connect/allscirpt.inc.php');
+ require_once('../../config/allscirpt.inc.php');
   function recherDepense($codefacture){
   	global $bdd;
   	global $annacad;

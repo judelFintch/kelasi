@@ -1,11 +1,11 @@
  <?php
- require_once('../../bdd_app_gst_connect/allscirpt.inc.php');
+ require_once('../../config/allscirpt.inc.php');
   function recherDepense($codefacture){
   	global $bdd;
   	global $annacad;
   	//requette
  $resultatDepense=$bdd->query("SELECT * FROM depense WHERE code_sortie_s like('$codefacture')")
- or die(print_r($bdd->erroInfo()));
+ or die(print_r($bdd->erroinfo()));
   if($resultatDepense->rowCount()==1){
       $depenseDetails=$resultatDepense->fetchAll();
   }

@@ -1,5 +1,5 @@
 <?php
-  require_once('../../bdd_app_gst_connect/allscirpt.inc.php');
+  require_once('../../config/allscirpt.inc.php');
  //function attribution code facture
 function  AttributionCodeFactureAutomatiquement($inscription){
    global $bdd;

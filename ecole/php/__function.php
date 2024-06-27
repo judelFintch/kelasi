@@ -1,5 +1,5 @@
 <?php
- require_once('../../bdd_app_gst_connect/allscirpt.inc.php');
+ require_once('../../config/allscirpt.inc.php');
  //Recherche de la facture
  if(isset($_POST['codefact'])){
     $donnees=RechercheFacture($_POST['codefact']);

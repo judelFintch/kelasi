@@ -1,6 +1,6 @@
 <?php
  if(isset($_POST['searchGet'])){
-    	require_once('../../bdd_app_gst_connect/allscirpt.inc.php');
+    	require_once('../../config/allscirpt.inc.php');
     	AffichagerSeatchElement(filtrageVariable($_POST['searchGet']));
     }
   function selectionTousExistence($rech){

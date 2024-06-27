@@ -1,5 +1,5 @@
 <?php
-  require_once('../../bdd_app_gst_connect/allscirpt.inc.php');
+  require_once('../../config/allscirpt.inc.php');
 //exectuction function mention
   if(isset($_POST['link'])){
   	extract($_POST);

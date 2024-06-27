@@ -1,5 +1,5 @@
 <?php
-require_once('../../bdd_app_gst_connect/allscirpt.inc.php');
+require_once('../../config/allscirpt.inc.php');
     function  insertionNewFraisUsd($section,$devise,$prix,$libelle,$classer,$toutes,$compte,$annacad_art){
     	global $bdd;
         global $annacad;

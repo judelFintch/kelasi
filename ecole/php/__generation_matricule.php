@@ -1,5 +1,5 @@
 <?php
- require_once('../../bdd_app_gst_connect/allscirpt.inc.php');
+ require_once('../../config/allscirpt.inc.php');
   //affichage du matricule dans les inputs
    if(isset($_POST['matricule'])){
   	$mention=AttributionMatriculeAutomatiquement();

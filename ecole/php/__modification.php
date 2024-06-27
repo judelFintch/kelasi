@@ -1,5 +1,5 @@
 <?php
-    require_once('../../bdd_app_gst_connect/allscirpt.inc.php');
+    require_once('../../config/allscirpt.inc.php');
 
     function modificationInformation($adresse_mod,$matricule_detail,$nom_md,$post_mod,$date_naiss_mod,$sexe_mod,$classe_mod,$prenom_mod,$categorieEleve){
     	global $bdd;

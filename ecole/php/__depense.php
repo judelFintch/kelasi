@@ -1,6 +1,6 @@
 <?php
 require_once('../../bdd_app_gst_connect/allscirpt.inc.php');
-function EffectuerUneDepense($montant,$motif,$devise,$compte,$nom,$numcompte,$date_op,$numcompte){
+function EffectuerUneDepense($montant,$motif,$devise,$compte,$nom,$numcompte,$date_op){
    	global $bdd;
    	global $date;
    	global $annacad;
@@ -8,10 +8,10 @@ function EffectuerUneDepense($montant,$motif,$devise,$compte,$nom,$numcompte,$da
    	$selection_id_depense=$bdd->query("SELECT id FROM depense order by id desc limit 1");
    	$id=$selection_id_depense->fetch();
    	$id='D'.$id['id'];
-    $libelle=@mysql_real_escape_string($libelle);
-    $motif=@mysql_real_escape_string($motif);
-    $compte=@mysql_real_escape_string($compte);
-    $nom=@mysql_real_escape_string($nom);
+    $libelle=$libelle;
+    $motif=$motif;
+    $compte=$compte;
+    $nom=$nom;
 					if($devise=="USD"){
 			    $bdd->exec("INSERT INTO depense VALUES('','$id','$montant','00','$devise','$motif','$date_op','$annacad','$compte','$nom','1','$user','$numcompte')")or die(print_r($bdd->errorInfo()));
 				

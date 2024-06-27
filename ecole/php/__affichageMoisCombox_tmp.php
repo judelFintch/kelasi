@@ -1,5 +1,5 @@
 <?php
-require_once('../../bdd_app_gst_connect/allscirpt.inc.php');
+require_once('../../config/allscirpt.inc.php');
 function selectionMounth($mat,$annacad){
 	global $bdd;
    $selection_mois=$bdd->query("SELECT moisp FROM mois WHERE matricule='$mat' and etat='dispo' and annee_acad='$annacad' order by id asc limit 1") ;
