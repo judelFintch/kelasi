@@ -3,12 +3,9 @@
 <?php
 session_start();
 if (isset($_SESSION['user'])) {
-
-   
 } else {
     header("Location:index.php");
 }
-
 ?>
 
 <head>
@@ -186,12 +183,7 @@ if (isset($_SESSION['user'])) {
                                                     <img alt="" src="public/img/profiles/avatar-09.jpg">
                                                 </span>
                                             </div>
-                                            <div class="list-body">
-                                                <span class="message-author">Richard Miles </span>
-                                                <span class="message-time">12:28 AM</span>
-                                                <div class="clearfix"></div>
-                                                <span class="message-content">Lorem ipsum dolor sit amet, consectetur adipiscing</span>
-                                            </div>
+                                           
                                         </div>
                                     </a>
                                 </li>
@@ -218,8 +210,6 @@ if (isset($_SESSION['user'])) {
             </ul>
 
         </div>
-
-
         <div class="page-wrapper">
             <div class="content container-fluid">
                 <div class="page-header">
@@ -232,8 +222,6 @@ if (isset($_SESSION['user'])) {
                         </div>
                     </div>
                 </div>
-
-
                 <div class="row">
                     <div class="col-md-6 col-sm-6 col-lg-6 col-xl-3">
                         <div class="card dash-widget">
@@ -250,7 +238,7 @@ if (isset($_SESSION['user'])) {
                     </div>
                     <div class="col-md-6 col-sm-6 col-lg-6 col-xl-3">
                         <div class="card dash-widget">
-                            <a href="">
+                            <a href="hr/index.php">
                                 <div class="card-body">
                                     <span class="dash-widget-icon"><i class="fa fa-cubes"></i></span>
                                     <div class="dash-widget-info">
@@ -264,7 +252,7 @@ if (isset($_SESSION['user'])) {
 
                     <div class="col-md-6 col-sm-6 col-lg-6 col-xl-3">
                         <div class="card dash-widget">
-                            <a href="">
+                        <a href="employes/index.php">
                                 <div class="card-body">
                                     <span class="dash-widget-icon"><i class="fa fa-cubes"></i></span>
                                     <div class="dash-widget-info">
@@ -277,7 +265,7 @@ if (isset($_SESSION['user'])) {
 
                     <div class="col-md-6 col-sm-6 col-lg-6 col-xl-3">
                         <div class="card dash-widget">
-                            <a href="">
+                            <a href="payroll/index.php">
                                 <div class="card-body">
                                     <span class="dash-widget-icon"><i class="fa fa-cubes"></i></span>
                                     <div class="dash-widget-info">
@@ -292,7 +280,7 @@ if (isset($_SESSION['user'])) {
                 <div class="row">
                     <div class="col-md-6 col-sm-6 col-lg-6 col-xl-3">
                         <div class="card dash-widget">
-                            <a href="">
+                        <a href="preinscription/index.php">
                                 <div class="card-body">
                                     <span class="dash-widget-icon"><i class="fa fa-cubes"></i></span>
                                     <div class="dash-widget-info">
