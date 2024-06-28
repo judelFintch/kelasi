@@ -23,7 +23,7 @@ $(function(){
 	//fin affiche  parametre mensuel
 	function recuperationMatricule(){
 			//envois de paremetre
-		$.post('../php/__generation_matricule.php',{matricule:true},function(matricule){$('#matricule').val(matricule);});
+		$.post('php/__generation_matricule.php',{matricule:true},function(matricule){$('#matricule').val(matricule);});
 	}
 	function verificationVariable(nomeleve,postnom,prenom,lieun,daten,sexe,adresse,provenance,pourcentage,mention,pays,classe){
 		  if(nomeleve=='' ||postnom=='' || prenom=='' || lieun=='' || daten=='' || sexe=='' || sexe==0 || adresse=='' ||provenance=='' || pourcentage=='' || mention=='' || pays=='' || pays==0 || classe==''){
