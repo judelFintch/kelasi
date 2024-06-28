@@ -75,7 +75,7 @@
                 </span>
             </a>
             <div class="page-title-box">
-                <h3>Dreamguy's Technologies</h3>
+            <h3>CRM Berakha</h3>
             </div>
             <a id="mobile_btn" class="mobile_btn" href="#sidebar"><i class="fa fa-bars"></i></a>
             <ul class="nav user-menu">
@@ -244,7 +244,7 @@
                 <div class="page-header">
                     <div class="row align-items-center">
                         <div class="col">
-                            <h3 class="page-title">Employer</h3>
+                            <h3>CRM Berakha</h3>
                             <ul class="breadcrumb">
                                 <li class="breadcrumb-item"><a href="dashboard">Dashboard</a></li>
                                 <li class="breadcrumb-item active">Salary</li>
