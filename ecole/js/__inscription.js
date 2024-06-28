@@ -10,7 +10,7 @@ $(function(){
 	//gestion de pametre mensuel
 	function recuperationParemetreMensuel(){
 		//envois de paremetre
-		$.post('../php/__generation_matricule.php',{mention:true},function(mentionMois){
+		$.post('ecole/php/__generation_matricule.php',{mention:true},function(mentionMois){
 			if(mentionMois==true){
 				 //passe a true quand il s'agit 
 				 $('.mentionAppoint').append('Appoint pris en charge pour l\'autre Mois').addClass('alert  alert-info');
