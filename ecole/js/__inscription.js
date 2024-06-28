@@ -10,7 +10,7 @@ $(function(){
 	//gestion de pametre mensuel
 	function recuperationParemetreMensuel(){
 		//envois de paremetre
-		$.post('/ecole/php/__generation_matricule.php',{mention:true},function(mentionMois){
+		$.post('../php/__generation_matricule.php',{mention:true},function(mentionMois){
 			if(mentionMois==true){
 				 //passe a true quand il s'agit 
 				 $('.mentionAppoint').append('Appoint pris en charge pour l\'autre Mois').addClass('alert  alert-info');
@@ -23,7 +23,7 @@ $(function(){
 	//fin affiche  parametre mensuel
 	function recuperationMatricule(){
 			//envois de paremetre
-		$.post('ecole/php/__generation_matricule.php',{matricule:true},function(matricule){$('#matricule').val(matricule);});
+		$.post('../php/__generation_matricule.php',{matricule:true},function(matricule){$('#matricule').val(matricule);});
 	}
 	function verificationVariable(nomeleve,postnom,prenom,lieun,daten,sexe,adresse,provenance,pourcentage,mention,pays,classe){
 		  if(nomeleve=='' ||postnom=='' || prenom=='' || lieun=='' || daten=='' || sexe=='' || sexe==0 || adresse=='' ||provenance=='' || pourcentage=='' || mention=='' || pays=='' || pays==0 || classe==''){
@@ -80,7 +80,7 @@ function retrouMessages(retrouMessage){
     //fin recuperation elements formualaire
     //traitement des inscription et reinscription
     function insertionDebutInscription(nomeleve,postnom,prenom,lieun,daten,sexe,adresse,provenance,pourcentage,mention,pays,photo,classe,categorie_paiement,reduction,modePaiement,date,matricule,link){
-     $.post('/ecole/php/__inscription.php',{nom:nomeleve,
+     $.post('php/__inscription.php',{nom:nomeleve,
      	                            postnom:postnom,
      	                            prenom:prenom,
      	                            lieun:lieun,
