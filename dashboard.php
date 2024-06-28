@@ -4,7 +4,7 @@
 session_start();
 if (isset($_SESSION['user'])) {
 
-    echo "bonjour";
+   
 } else {
     header("Location:index.php");
 }
@@ -225,9 +225,9 @@ if (isset($_SESSION['user'])) {
                 <div class="page-header">
                     <div class="row">
                         <div class="col-sm-12">
-                            <h3 class="page-title">Bonjour!</h3>
+                            <h3 class="page-title">Bonjour!  <?= $_SESSION['user'] ?></h3>
                             <ul class="breadcrumb">
-                                <li class="breadcrumb-item active">Dashboard</li>
+                               
                             </ul>
                         </div>
                     </div>
