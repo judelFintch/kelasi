@@ -8,31 +8,54 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Smarthr - Codeigniter Admin Template">
-    <meta name="keywords" content="admin, estimates, bootstrap, business, corporate, creative, management, minimal, modern, accounts, invoice, html5, responsive, CRM, Projects">
+    <meta name="keywords"
+        content="admin, estimates, bootstrap, business, corporate, creative, management, minimal, modern, accounts, invoice, html5, responsive, CRM, Projects">
     <meta name="author" content="Dreamguys - Codeigniter Admin Template">
     <meta name="robots" content="noindex, nofollow">
-    <title>Salary | Employees</title>
+    <title>Salary | HRMS - Admin & Dashboard Template</title>
 
-    <link rel="shortcut icon" type="image/x-icon" href="public/img/favicon.png">
-    <link rel="stylesheet" href="../public/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../public/css/font-awesome.min.css">
-    <link rel="stylesheet" href="../public/css/line-awesome.min.css">
-    <link rel="stylesheet" href="../public/plugins/alertify/alertify.min.css">
-    <link rel="stylesheet" href="../public/plugins/lightbox/glightbox.min.css">
-    <link rel="stylesheet" href="../public/plugins/c3-chart/c3.min.css">
-    <link rel="stylesheet" href="../public/plugins//toastr/toatr.css">
-    <link rel="stylesheet" href="../public/css/select2.min.css">
-    <link rel="stylesheet" href="../public/css/bootstrap-datetimepicker.min.css">
-    <link rel="stylesheet" href="../public/css/fullcalendar.min.css">
-    <link rel="stylesheet" href="../public/plugins/summernote/dist/summernote-bs4.css">
-    <link rel="stylesheet" href="../public/css/dataTables.bootstrap4.min.css">
+
+    <link rel="shortcut icon" type="image/x-icon"
+        href="../public/img/favicon.png">
+
+    <link rel="stylesheet"
+        href="../public/css/bootstrap.min.css">
+
+    <link rel="stylesheet"
+        href="../public/css/font-awesome.min.css">
+
+    <link rel="stylesheet"
+        href="../public/css/line-awesome.min.css">
+
+    <link rel="stylesheet"
+        href="../public/plugins/alertify/alertify.min.css">
+
+    <link rel="stylesheet"
+        href="../public/plugins/lightbox/glightbox.min.css">
+
+    <link rel="stylesheet"
+        href="../public/plugins/c3-chart/c3.min.css">
+
+    <link rel="stylesheet"
+        href="../public/plugins//toastr/toatr.css">
+
+    <link rel="stylesheet"
+        href="../public/css/select2.min.css">
+
+    <link rel="stylesheet"
+        href="../public/css/bootstrap-datetimepicker.min.css">
+
+    <link rel="stylesheet"
+        href="../public/css/fullcalendar.min.css">
+
+    <link rel="stylesheet"
+        href="../public/plugins/summernote/dist/summernote-bs4.css">
+
+    <link rel="stylesheet"
+        href="../public/css/dataTables.bootstrap4.min.css">
+
     <link rel="stylesheet" href="../public/css/style.css">
 
-
-
-
-
-    
 </head>
 
 <body>
@@ -40,7 +63,8 @@
         <div class="header">
             <div class="header-left">
                 <a href="dashboard" class="logo">
-                    <img src="../public/img/logo.png" width="40" height="40" alt="">
+                    <img src="../public/img/logo.png"
+                        width="40" height="40" alt="">
                 </a>
             </div>
             <a id="toggle_btn" href="javascript:void(0);">
@@ -68,20 +92,25 @@
                 </li>
                 <li class="nav-item dropdown has-arrow flag-nav">
                     <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button">
-                        <img src="../public/img/flags/us.png" alt="" height="20"> <span>English</span>
+                        <img src="../public/img/flags/us.png"
+                            alt="" height="20"> <span>English</span>
                     </a>
                     <div class="dropdown-menu dropdown-menu-right">
                         <a href="javascript:void(0);" class="dropdown-item">
-                            <img src="../public/img/flags/us.png" alt="" height="16"> English
+                            <img src="../public/img/flags/us.png"
+                                alt="" height="16"> English
                         </a>
                         <a href="javascript:void(0);" class="dropdown-item">
-                            <img src="../public/img/flags/fr.png" alt="" height="16"> French
+                            <img src="../public/img/flags/fr.png"
+                                alt="" height="16"> French
                         </a>
                         <a href="javascript:void(0);" class="dropdown-item">
-                            <img src="../public/img/flags/es.png" alt="" height="16"> Spanish
+                            <img src="../public/img/flags/es.png"
+                                alt="" height="16"> Spanish
                         </a>
                         <a href="javascript:void(0);" class="dropdown-item">
-                            <img src="../public/img/flags/de.png" alt="" height="16"> German
+                            <img src="../public/img/flags/de.png"
+                                alt="" height="16"> German
                         </a>
                     </div>
                 </li>
@@ -138,7 +167,9 @@
                                             </span>
                                             <div class="media-body flex-grow-1">
                                                 <p class="noti-details"><span class="noti-title">Misty Tison</span>
-                                                    added <span class="noti-title">Domenic Houston</span> and <span class="noti-title">Claire Mapes</span> to project <span class="noti-title">Doctor available module</span></p>
+                                                    added <span class="noti-title">Domenic Houston</span> and <span
+                                                        class="noti-title">Claire Mapes</span> to project <span
+                                                        class="noti-title">Doctor available module</span></p>
                                                 <p class="noti-time"><span class="notification-time">8 mins ago</span>
                                                 </p>
                                             </div>
@@ -149,7 +180,8 @@
                                     <a href="activities">
                                         <div class="media d-flex">
                                             <span class="avatar flex-shrink-0">
-                                                <img alt="" src="../public/img/profiles/avatar-17.jpg">
+                                                <img alt=""
+                                                    src="../public/img/profiles/avatar-17.jpg">
                                             </span>
                                             <div class="media-body flex-grow-1">
                                                 <p class="noti-details"><span class="noti-title">Rolland Webber</span>
@@ -165,7 +197,8 @@
                                     <a href="activities">
                                         <div class="media d-flex">
                                             <span class="avatar flex-shrink-0">
-                                                <img alt="" src="../public/img/profiles/avatar-13.jpg">
+                                                <img alt=""
+                                                    src="../public/img/profiles/avatar-13.jpg">
                                             </span>
                                             <div class="media-body flex-grow-1">
                                                 <p class="noti-details"><span class="noti-title">Bernardo Galaviz</span>
@@ -202,7 +235,8 @@
                                         <div class="list-item">
                                             <div class="list-left">
                                                 <span class="avatar">
-                                                    <img alt="" src="../public/img/profiles/avatar-09.jpg">
+                                                    <img alt=""
+                                                        src="../public/img/profiles/avatar-09.jpg">
                                                 </span>
                                             </div>
                                             <div class="list-body">
@@ -220,7 +254,8 @@
                                         <div class="list-item">
                                             <div class="list-left">
                                                 <span class="avatar">
-                                                    <img alt="" src="../public/img/profiles/avatar-02.jpg">
+                                                    <img alt=""
+                                                        src="../public/img/profiles/avatar-02.jpg">
                                                 </span>
                                             </div>
                                             <div class="list-body">
@@ -238,7 +273,8 @@
                                         <div class="list-item">
                                             <div class="list-left">
                                                 <span class="avatar">
-                                                    <img alt="" src="../public/img/profiles/avatar-03.jpg">
+                                                    <img alt=""
+                                                        src="../public/img/profiles/avatar-03.jpg">
                                                 </span>
                                             </div>
                                             <div class="list-body">
@@ -256,7 +292,8 @@
                                         <div class="list-item">
                                             <div class="list-left">
                                                 <span class="avatar">
-                                                    <img alt="" src="../public/img/profiles/avatar-05.jpg">
+                                                    <img alt=""
+                                                        src="../public/img/profiles/avatar-05.jpg">
                                                 </span>
                                             </div>
                                             <div class="list-body">
@@ -274,7 +311,8 @@
                                         <div class="list-item">
                                             <div class="list-left">
                                                 <span class="avatar">
-                                                    <img alt="" src="../public/img/profiles/avatar-08.jpg">
+                                                    <img alt=""
+                                                        src="../public/img/profiles/avatar-08.jpg">
                                                 </span>
                                             </div>
                                             <div class="list-body">
@@ -297,7 +335,9 @@
 
                 <li class="nav-item dropdown has-arrow main-drop">
                     <a href="#" class="dropdown-toggle nav-link" data-bs-toggle="dropdown">
-                        <span class="user-img"><img src="../public/img/profiles/avatar-21.jpg" alt="">
+                        <span class="user-img"><img
+                                src="../public/img/profiles/avatar-21.jpg"
+                                alt="">
                             <span class="status online"></span></span>
                         <span>Admin</span>
                     </a>
@@ -321,14 +361,16 @@
                             <span>Main</span>
                         </li>
                         <li class="submenu">
-                            <a href="#"><i class="la la-dashboard"></i> <span> Dashboard</span> <span class="menu-arrow"></span></a>
+                            <a href="#"><i class="la la-dashboard"></i> <span> Dashboard</span> <span
+                                    class="menu-arrow"></span></a>
                             <ul style="display: none;">
                                 <li><a class="" href="dashboard">Admin Dashboard</a></li>
                                 <li><a class="" href="employee_dashboard">Employee Dashboard</a></li>
                             </ul>
                         </li>
                         <li class="submenu">
-                            <a href="#"><i class="la la-cube"></i> <span> Apps</span> <span class="menu-arrow"></span></a>
+                            <a href="#"><i class="la la-cube"></i> <span> Apps</span> <span
+                                    class="menu-arrow"></span></a>
                             <ul style="display: none;">
                                 <li><a class="" href="apps-chat">Chat</a></li>
                                 <li class="submenu">
@@ -350,11 +392,13 @@
                             <span>Employees</span>
                         </li>
                         <li class="submenu">
-                            <a href="#" class="noti-dot"><i class="la la-user"></i> <span> Employees</span> <span class="menu-arrow"></span></a>
+                            <a href="#" class="noti-dot"><i class="la la-user"></i> <span> Employees</span> <span
+                                    class="menu-arrow"></span></a>
                             <ul style="display: none;">
                                 <li><a class="" href="employees">All Employees</a></li>
                                 <li><a class="" href="holidays">Holidays</a></li>
-                                <li><a class="" href="leaves">Leaves (Admin) <span class="badge rounded-pill bg-primary float-end">1</span></a></li>
+                                <li><a class="" href="leaves">Leaves (Admin) <span
+                                            class="badge rounded-pill bg-primary float-end">1</span></a></li>
                                 <li><a class="" href="leaves_employee">Leaves (Employee)</a></li>
                                 <li><a class="" href="leaves_settings">Leave Settings</a></li>
                                 <li><a class="" href="attendance">Attendance (Admin)</a></li>
@@ -370,7 +414,8 @@
                             <a href="clients"><i class="la la-users"></i> <span>Clients</span></a>
                         </li>
                         <li class="submenu">
-                            <a href="#"><i class="la la-rocket"></i> <span> Projects</span> <span class="menu-arrow"></span></a>
+                            <a href="#"><i class="la la-rocket"></i> <span> Projects</span> <span
+                                    class="menu-arrow"></span></a>
                             <ul style="display: none;">
                                 <li><a class="" href="projects">Projects</a></li>
                                 <li><a class="" href="tasks">Tasks</a></li>
@@ -387,7 +432,8 @@
                             <span>HR</span>
                         </li>
                         <li class="submenu">
-                            <a href="#"><i class="la la-files-o"></i> <span> Sales </span> <span class="menu-arrow"></span></a>
+                            <a href="#"><i class="la la-files-o"></i> <span> Sales </span> <span
+                                    class="menu-arrow"></span></a>
                             <ul style="display: none;">
                                 <li><a class="" href="estimates">Estimates</a></li>
                                 <li><a class="" href="invoices">Invoices</a></li>
@@ -398,7 +444,8 @@
                             </ul>
                         </li>
                         <li class="submenu">
-                            <a href="#"><i class="la la-files-o"></i> <span> Accounting </span> <span class="menu-arrow"></span></a>
+                            <a href="#"><i class="la la-files-o"></i> <span> Accounting </span> <span
+                                    class="menu-arrow"></span></a>
                             <ul style="display: none;">
                                 <li><a class="" href="categories">Categories</a></li>
                                 <li><a class="" href="budgets">Budgets</a></li>
@@ -407,7 +454,8 @@
                             </ul>
                         </li>
                         <li class="submenu">
-                            <a href="#"><i class="la la-money"></i> <span> Payroll </span> <span class="menu-arrow"></span></a>
+                            <a href="#"><i class="la la-money"></i> <span> Payroll </span> <span
+                                    class="menu-arrow"></span></a>
                             <ul style="display: none;">
                                 <li><a class="active" href="salary"> Employee Salary </a></li>
                                 <li><a class="" href="salary_view"> Payslip </a></li>
@@ -418,7 +466,8 @@
                             <a href="policies"><i class="la la-file-pdf-o"></i> <span>Policies</span></a>
                         </li>
                         <li class="submenu">
-                            <a href="#"><i class="la la-pie-chart"></i> <span> Reports </span> <span class="menu-arrow"></span></a>
+                            <a href="#"><i class="la la-pie-chart"></i> <span> Reports </span> <span
+                                    class="menu-arrow"></span></a>
                             <ul style="display: none;">
                                 <li><a class="" href="expense_reports"> Expense Report </a></li>
                                 <li><a class="" href="invoice_reports"> Invoice Report </a></li>
@@ -437,7 +486,8 @@
                             <span>Performance</span>
                         </li>
                         <li class="submenu">
-                            <a href="#"><i class="la la-graduation-cap"></i> <span> Performance </span> <span class="menu-arrow"></span></a>
+                            <a href="#"><i class="la la-graduation-cap"></i> <span> Performance </span> <span
+                                    class="menu-arrow"></span></a>
                             <ul style="display: none;">
                                 <li><a class="" href="performance_indicator"> Performance Indicator </a></li>
                                 <li><a class="" href="performance"> Performance Review </a></li>
@@ -445,14 +495,16 @@
                             </ul>
                         </li>
                         <li class="submenu">
-                            <a href="#"><i class="la la-crosshairs"></i> <span> Goals </span> <span class="menu-arrow"></span></a>
+                            <a href="#"><i class="la la-crosshairs"></i> <span> Goals </span> <span
+                                    class="menu-arrow"></span></a>
                             <ul style="display: none;">
                                 <li><a class="" href="goal_tracking"> Goal List </a></li>
                                 <li><a class="" href="goal_type"> Goal Type </a></li>
                             </ul>
                         </li>
                         <li class="submenu">
-                            <a href="#"><i class="la la-edit"></i> <span> Training </span> <span class="menu-arrow"></span></a>
+                            <a href="#"><i class="la la-edit"></i> <span> Training </span> <span
+                                    class="menu-arrow"></span></a>
                             <ul style="display: none;">
                                 <li><a class="" href="training"> Training List </a></li>
                                 <li><a class="" href="trainers"> Trainers</a></li>
@@ -471,7 +523,8 @@
                             <a href="../public_list"><i class="la la-object-ungroup"></i> <span>../public</span></a>
                         </li>
                         <li class="submenu">
-                            <a href="#"><i class="la la-briefcase"></i> <span> Jobs </span> <span class="menu-arrow"></span></a>
+                            <a href="#"><i class="la la-briefcase"></i> <span> Jobs </span> <span
+                                    class="menu-arrow"></span></a>
                             <ul style="display: none;">
                                 <li><a class="" href="user_dashboard"> User Dasboard </a></li>
                                 <li><a class="" href="jobs_dashboard"> Jobs Dasboard </a></li>
@@ -502,14 +555,16 @@
                             <span>Pages</span>
                         </li>
                         <li class="submenu">
-                            <a href="#"><i class="la la-user"></i> <span> Profile </span> <span class="menu-arrow"></span></a>
+                            <a href="#"><i class="la la-user"></i> <span> Profile </span> <span
+                                    class="menu-arrow"></span></a>
                             <ul style="display: none;">
                                 <li><a class="" href="profile"> Employee Profile </a></li>
                                 <li><a class="" href="clients_profile"> Client Profile </a></li>
                             </ul>
                         </li>
                         <li class="submenu">
-                            <a href="#"><i class="la la-key"></i> <span> Authentication </span> <span class="menu-arrow"></span></a>
+                            <a href="#"><i class="la la-key"></i> <span> Authentication </span> <span
+                                    class="menu-arrow"></span></a>
                             <ul style="display: none;">
                                 <li><a class="" href="index"> Login </a></li>
                                 <li><a class="" href="auth-register"> Register </a></li>
@@ -519,14 +574,16 @@
                             </ul>
                         </li>
                         <li class="submenu">
-                            <a href="#"><i class="la la-exclamation-triangle"></i> <span> Error Pages </span> <span class="menu-arrow"></span></a>
+                            <a href="#"><i class="la la-exclamation-triangle"></i> <span> Error Pages </span> <span
+                                    class="menu-arrow"></span></a>
                             <ul style="display: none;">
                                 <li><a class="" href="error-404">404 Error </a></li>
                                 <li><a class="" href="error-500">500 Error </a></li>
                             </ul>
                         </li>
                         <li class="submenu">
-                            <a href="#"><i class="la la-hand-o-up"></i> <span> Subscriptions </span> <span class="menu-arrow"></span></a>
+                            <a href="#"><i class="la la-hand-o-up"></i> <span> Subscriptions </span> <span
+                                    class="menu-arrow"></span></a>
                             <ul style="display: none;">
                                 <li><a class="" href="subscriptions"> Subscriptions (Admin) </a></li>
                                 <li><a class="" href="subscriptions_company"> Subscriptions (Company) </a></li>
@@ -534,7 +591,8 @@
                             </ul>
                         </li>
                         <li class="submenu">
-                            <a href="#"><i class="la la-columns"></i> <span> Pages </span> <span class="menu-arrow"></span></a>
+                            <a href="#"><i class="la la-columns"></i> <span> Pages </span> <span
+                                    class="menu-arrow"></span></a>
                             <ul style="display: none;">
                                 <li><a class="" href="search"> Search </a></li>
                                 <li><a class="" href="faq"> FAQ </a></li>
@@ -550,7 +608,8 @@
                             <a href="components"><i class="la la-puzzle-piece"></i> <span>Components</span></a>
                         </li>
                         <li class="submenu">
-                            <a href="#"><i class="lab la-dropbox"></i> <span> Elements</span> <span class="menu-arrow"></span></a>
+                            <a href="#"><i class="lab la-dropbox"></i> <span> Elements</span> <span
+                                    class="menu-arrow"></span></a>
                             <ul style="display: none;">
                                 <li><a class="" href="sweet_alerts">Sweet Alerts</a></li>
                                 <li><a class="" href="lightbox">Lightbox</a></li>
@@ -560,7 +619,8 @@
                             </ul>
                         </li>
                         <li class="submenu">
-                            <a href="#"><i class="las la-chart-bar"></i> <span>Charts</span> <span class="menu-arrow"></span></a>
+                            <a href="#"><i class="las la-chart-bar"></i> <span>Charts</span> <span
+                                    class="menu-arrow"></span></a>
                             <ul style="display: none;">
                                 <li><a class="" href="apex_charts">Apex Charts</a></li>
                                 <li><a class="" href="chart_js">Chart js</a></li>
@@ -569,7 +629,8 @@
                             </ul>
                         </li>
                         <li class="submenu">
-                            <a href="#"><i class="la la-object-group"></i> <span> Forms </span> <span class="menu-arrow"></span></a>
+                            <a href="#"><i class="la la-object-group"></i> <span> Forms </span> <span
+                                    class="menu-arrow"></span></a>
                             <ul style="display: none;">
                                 <li><a class="" href="form_basic_inputs">Basic Inputs </a></li>
                                 <li><a class="" href="form_input_groups">Input Groups </a></li>
@@ -580,7 +641,8 @@
                             </ul>
                         </li>
                         <li class="submenu">
-                            <a href="#"><i class="la la-table"></i> <span> Tables </span> <span class="menu-arrow"></span></a>
+                            <a href="#"><i class="la la-table"></i> <span> Tables </span> <span
+                                    class="menu-arrow"></span></a>
                             <ul style="display: none;">
                                 <li><a class="" href="table_basic">Basic Tables </a></li>
                                 <li><a class="" href="data_tables">Data Table </a></li>
@@ -608,7 +670,8 @@
                             </ul>
                         </div>
                         <div class="col-auto float-end ms-auto">
-                            <a href="#" class="btn add-btn" data-bs-toggle="modal" data-bs-target="#add_salary"><i class="fa fa-plus"></i> Add Salary</a>
+                            <a href="#" class="btn add-btn" data-bs-toggle="modal" data-bs-target="#add_salary"><i
+                                    class="fa fa-plus"></i> Add Salary</a>
                         </div>
                     </div>
                 </div>
@@ -681,17 +744,20 @@
                                     <tr>
                                         <td>
                                             <h2 class="table-avatar">
-                                                <a href="profile" class="avatar"><img alt="" src="../public/img/profiles/avatar-02.jpg"></a>
+                                                <a href="profile" class="avatar"><img alt=""
+                                                        src="../public/img/profiles/avatar-02.jpg"></a>
                                                 <a href="profile">John Doe <span>Web Designer</span></a>
                                             </h2>
                                         </td>
                                         <td>FT-0001</td>
-                                        <td><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="355f5a5d5b515a5075504d54584559501b565a58">[email&#160;protected]</a>
+                                        <td><a href="/cdn-cgi/l/email-protection" class="__cf_email__"
+                                                data-cfemail="355f5a5d5b515a5075504d54584559501b565a58">[email&#160;protected]</a>
                                         </td>
                                         <td>1 Jan 2013</td>
                                         <td>
                                             <div class="dropdown">
-                                                <a href="" class="btn btn-white btn-sm btn-rounded dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">Web Designer </a>
+                                                <a href="" class="btn btn-white btn-sm btn-rounded dropdown-toggle"
+                                                    data-bs-toggle="dropdown" aria-expanded="false">Web Designer </a>
                                                 <div class="dropdown-menu">
                                                     <a class="dropdown-item" href="#">Software Engineer</a>
                                                     <a class="dropdown-item" href="#">Software Tester</a>
@@ -704,11 +770,16 @@
                                         <td><a class="btn btn-sm btn-primary" href="salary_view">Generate Slip</a></td>
                                         <td class="text-end">
                                             <div class="dropdown dropdown-action">
-                                                <a href="#" class="action-icon dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"><i class="material-icons">more_vert</i></a>
+                                                <a href="#" class="action-icon dropdown-toggle"
+                                                    data-bs-toggle="dropdown" aria-expanded="false"><i
+                                                        class="material-icons">more_vert</i></a>
                                                 <div class="dropdown-menu dropdown-menu-right">
-                                                    <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#edit_salary"><i class="fa fa-pencil m-r-5"></i>
+                                                    <a class="dropdown-item" href="#" data-bs-toggle="modal"
+                                                        data-bs-target="#edit_salary"><i class="fa fa-pencil m-r-5"></i>
                                                         Edit</a>
-                                                    <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#delete_salary"><i class="fa fa-trash-o m-r-5"></i> Delete</a>
+                                                    <a class="dropdown-item" href="#" data-bs-toggle="modal"
+                                                        data-bs-target="#delete_salary"><i
+                                                            class="fa fa-trash-o m-r-5"></i> Delete</a>
                                                 </div>
                                             </div>
                                         </td>
@@ -716,17 +787,21 @@
                                     <tr>
                                         <td>
                                             <h2 class="table-avatar">
-                                                <a href="profile" class="avatar"><img src="../public/img/profiles/avatar-09.jpg" alt=""></a>
+                                                <a href="profile" class="avatar"><img
+                                                        src="../public/img/profiles/avatar-09.jpg"
+                                                        alt=""></a>
                                                 <a href="profile">Richard Miles <span>Web Developer</span></a>
                                             </h2>
                                         </td>
                                         <td>FT-0002</td>
-                                        <td><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="32405b515a5340565f5b5e574172574a535f425e571c515d5f">[email&#160;protected]</a>
+                                        <td><a href="/cdn-cgi/l/email-protection" class="__cf_email__"
+                                                data-cfemail="32405b515a5340565f5b5e574172574a535f425e571c515d5f">[email&#160;protected]</a>
                                         </td>
                                         <td>1 Jan 2013</td>
                                         <td>
                                             <div class="dropdown">
-                                                <a href="" class="btn btn-white btn-sm btn-rounded dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">Web Developer </a>
+                                                <a href="" class="btn btn-white btn-sm btn-rounded dropdown-toggle"
+                                                    data-bs-toggle="dropdown" aria-expanded="false">Web Developer </a>
                                                 <div class="dropdown-menu">
                                                     <a class="dropdown-item" href="#">Software Engineer</a>
                                                     <a class="dropdown-item" href="#">Software Tester</a>
@@ -739,11 +814,16 @@
                                         <td><a class="btn btn-sm btn-primary" href="salary_view">Generate Slip</a></td>
                                         <td class="text-end">
                                             <div class="dropdown dropdown-action">
-                                                <a href="#" class="action-icon dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"><i class="material-icons">more_vert</i></a>
+                                                <a href="#" class="action-icon dropdown-toggle"
+                                                    data-bs-toggle="dropdown" aria-expanded="false"><i
+                                                        class="material-icons">more_vert</i></a>
                                                 <div class="dropdown-menu dropdown-menu-right">
-                                                    <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#edit_salary"><i class="fa fa-pencil m-r-5"></i>
+                                                    <a class="dropdown-item" href="#" data-bs-toggle="modal"
+                                                        data-bs-target="#edit_salary"><i class="fa fa-pencil m-r-5"></i>
                                                         Edit</a>
-                                                    <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#delete_salary"><i class="fa fa-trash-o m-r-5"></i> Delete</a>
+                                                    <a class="dropdown-item" href="#" data-bs-toggle="modal"
+                                                        data-bs-target="#delete_salary"><i
+                                                            class="fa fa-trash-o m-r-5"></i> Delete</a>
                                                 </div>
                                             </div>
                                         </td>
@@ -751,17 +831,21 @@
                                     <tr>
                                         <td>
                                             <h2 class="table-avatar">
-                                                <a href="profile" class="avatar"><img src="../public/img/profiles/avatar-10.jpg" alt=""></a>
+                                                <a href="profile" class="avatar"><img
+                                                        src="../public/img/profiles/avatar-10.jpg"
+                                                        alt=""></a>
                                                 <a href="profile">John Smith <span>Android Developer</span></a>
                                             </h2>
                                         </td>
                                         <td>FT-0003</td>
-                                        <td><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="f09a9f989e839d998498b09588919d809c95de939f9d">[email&#160;protected]</a>
+                                        <td><a href="/cdn-cgi/l/email-protection" class="__cf_email__"
+                                                data-cfemail="f09a9f989e839d998498b09588919d809c95de939f9d">[email&#160;protected]</a>
                                         </td>
                                         <td>1 Jan 2013</td>
                                         <td>
                                             <div class="dropdown">
-                                                <a href="" class="btn btn-white btn-sm btn-rounded dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">Android Developer
+                                                <a href="" class="btn btn-white btn-sm btn-rounded dropdown-toggle"
+                                                    data-bs-toggle="dropdown" aria-expanded="false">Android Developer
                                                 </a>
                                                 <div class="dropdown-menu">
                                                     <a class="dropdown-item" href="#">Software Engineer</a>
@@ -775,11 +859,16 @@
                                         <td><a class="btn btn-sm btn-primary" href="salary_view">Generate Slip</a></td>
                                         <td class="text-end">
                                             <div class="dropdown dropdown-action">
-                                                <a href="#" class="action-icon dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"><i class="material-icons">more_vert</i></a>
+                                                <a href="#" class="action-icon dropdown-toggle"
+                                                    data-bs-toggle="dropdown" aria-expanded="false"><i
+                                                        class="material-icons">more_vert</i></a>
                                                 <div class="dropdown-menu dropdown-menu-right">
-                                                    <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#edit_salary"><i class="fa fa-pencil m-r-5"></i>
+                                                    <a class="dropdown-item" href="#" data-bs-toggle="modal"
+                                                        data-bs-target="#edit_salary"><i class="fa fa-pencil m-r-5"></i>
                                                         Edit</a>
-                                                    <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#delete_salary"><i class="fa fa-trash-o m-r-5"></i> Delete</a>
+                                                    <a class="dropdown-item" href="#" data-bs-toggle="modal"
+                                                        data-bs-target="#delete_salary"><i
+                                                            class="fa fa-trash-o m-r-5"></i> Delete</a>
                                                 </div>
                                             </div>
                                         </td>
@@ -787,17 +876,21 @@
                                     <tr>
                                         <td>
                                             <h2 class="table-avatar">
-                                                <a href="profile" class="avatar"><img src="../public/img/profiles/avatar-05.jpg" alt=""></a>
+                                                <a href="profile" class="avatar"><img
+                                                        src="../public/img/profiles/avatar-05.jpg"
+                                                        alt=""></a>
                                                 <a href="profile">Mike Litorus <span>IOS Developer</span></a>
                                             </h2>
                                         </td>
                                         <td>FT-0004</td>
-                                        <td><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="45282c2e20292c312a37303605203d24283529206b262a28">[email&#160;protected]</a>
+                                        <td><a href="/cdn-cgi/l/email-protection" class="__cf_email__"
+                                                data-cfemail="45282c2e20292c312a37303605203d24283529206b262a28">[email&#160;protected]</a>
                                         </td>
                                         <td>1 Jan 2013</td>
                                         <td>
                                             <div class="dropdown">
-                                                <a href="" class="btn btn-white btn-sm btn-rounded dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">IOS Developer </a>
+                                                <a href="" class="btn btn-white btn-sm btn-rounded dropdown-toggle"
+                                                    data-bs-toggle="dropdown" aria-expanded="false">IOS Developer </a>
                                                 <div class="dropdown-menu">
                                                     <a class="dropdown-item" href="#">Software Engineer</a>
                                                     <a class="dropdown-item" href="#">Software Tester</a>
@@ -810,11 +903,16 @@
                                         <td><a class="btn btn-sm btn-primary" href="salary_view">Generate Slip</a></td>
                                         <td class="text-end">
                                             <div class="dropdown dropdown-action">
-                                                <a href="#" class="action-icon dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"><i class="material-icons">more_vert</i></a>
+                                                <a href="#" class="action-icon dropdown-toggle"
+                                                    data-bs-toggle="dropdown" aria-expanded="false"><i
+                                                        class="material-icons">more_vert</i></a>
                                                 <div class="dropdown-menu dropdown-menu-right">
-                                                    <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#edit_salary"><i class="fa fa-pencil m-r-5"></i>
+                                                    <a class="dropdown-item" href="#" data-bs-toggle="modal"
+                                                        data-bs-target="#edit_salary"><i class="fa fa-pencil m-r-5"></i>
                                                         Edit</a>
-                                                    <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#delete_salary"><i class="fa fa-trash-o m-r-5"></i> Delete</a>
+                                                    <a class="dropdown-item" href="#" data-bs-toggle="modal"
+                                                        data-bs-target="#delete_salary"><i
+                                                            class="fa fa-trash-o m-r-5"></i> Delete</a>
                                                 </div>
                                             </div>
                                         </td>
@@ -822,17 +920,21 @@
                                     <tr>
                                         <td>
                                             <h2 class="table-avatar">
-                                                <a href="profile" class="avatar"><img src="../public/img/profiles/avatar-11.jpg" alt=""></a>
+                                                <a href="profile" class="avatar"><img
+                                                        src="../public/img/profiles/avatar-11.jpg"
+                                                        alt=""></a>
                                                 <a href="profile">Wilmer Deluna <span>Team Leader</span></a>
                                             </h2>
                                         </td>
                                         <td>FT-0005</td>
-                                        <td><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="73041a1f1e160117161f061d1233160b121e031f165d101c1e">[email&#160;protected]</a>
+                                        <td><a href="/cdn-cgi/l/email-protection" class="__cf_email__"
+                                                data-cfemail="73041a1f1e160117161f061d1233160b121e031f165d101c1e">[email&#160;protected]</a>
                                         </td>
                                         <td>1 Jan 2013</td>
                                         <td>
                                             <div class="dropdown">
-                                                <a href="" class="btn btn-white btn-sm btn-rounded dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">Team Leader </a>
+                                                <a href="" class="btn btn-white btn-sm btn-rounded dropdown-toggle"
+                                                    data-bs-toggle="dropdown" aria-expanded="false">Team Leader </a>
                                                 <div class="dropdown-menu">
                                                     <a class="dropdown-item" href="#">Software Engineer</a>
                                                     <a class="dropdown-item" href="#">Software Tester</a>
@@ -845,11 +947,16 @@
                                         <td><a class="btn btn-sm btn-primary" href="salary_view">Generate Slip</a></td>
                                         <td class="text-end">
                                             <div class="dropdown dropdown-action">
-                                                <a href="#" class="action-icon dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"><i class="material-icons">more_vert</i></a>
+                                                <a href="#" class="action-icon dropdown-toggle"
+                                                    data-bs-toggle="dropdown" aria-expanded="false"><i
+                                                        class="material-icons">more_vert</i></a>
                                                 <div class="dropdown-menu dropdown-menu-right">
-                                                    <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#edit_salary"><i class="fa fa-pencil m-r-5"></i>
+                                                    <a class="dropdown-item" href="#" data-bs-toggle="modal"
+                                                        data-bs-target="#edit_salary"><i class="fa fa-pencil m-r-5"></i>
                                                         Edit</a>
-                                                    <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#delete_salary"><i class="fa fa-trash-o m-r-5"></i> Delete</a>
+                                                    <a class="dropdown-item" href="#" data-bs-toggle="modal"
+                                                        data-bs-target="#delete_salary"><i
+                                                            class="fa fa-trash-o m-r-5"></i> Delete</a>
                                                 </div>
                                             </div>
                                         </td>
@@ -857,17 +964,21 @@
                                     <tr>
                                         <td>
                                             <h2 class="table-avatar">
-                                                <a href="profile" class="avatar"><img src="../public/img/profiles/avatar-12.jpg" alt=""></a>
+                                                <a href="profile" class="avatar"><img
+                                                        src="../public/img/profiles/avatar-12.jpg"
+                                                        alt=""></a>
                                                 <a href="profile">Jeffrey Warden <span>Web Developer</span></a>
                                             </h2>
                                         </td>
                                         <td>FT-0006</td>
-                                        <td><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="6c06090a0a1e09151b0d1e0809022c09140d011c0009420f0301">[email&#160;protected]</a>
+                                        <td><a href="/cdn-cgi/l/email-protection" class="__cf_email__"
+                                                data-cfemail="6c06090a0a1e09151b0d1e0809022c09140d011c0009420f0301">[email&#160;protected]</a>
                                         </td>
                                         <td>1 Jan 2013</td>
                                         <td>
                                             <div class="dropdown">
-                                                <a href="" class="btn btn-white btn-sm btn-rounded dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">Web Developer</a>
+                                                <a href="" class="btn btn-white btn-sm btn-rounded dropdown-toggle"
+                                                    data-bs-toggle="dropdown" aria-expanded="false">Web Developer</a>
                                                 <div class="dropdown-menu">
                                                     <a class="dropdown-item" href="#">Software Engineer</a>
                                                     <a class="dropdown-item" href="#">Software Tester</a>
@@ -880,11 +991,16 @@
                                         <td><a class="btn btn-sm btn-primary" href="salary_view">Generate Slip</a></td>
                                         <td class="text-end">
                                             <div class="dropdown dropdown-action">
-                                                <a href="#" class="action-icon dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"><i class="material-icons">more_vert</i></a>
+                                                <a href="#" class="action-icon dropdown-toggle"
+                                                    data-bs-toggle="dropdown" aria-expanded="false"><i
+                                                        class="material-icons">more_vert</i></a>
                                                 <div class="dropdown-menu dropdown-menu-right">
-                                                    <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#edit_salary"><i class="fa fa-pencil m-r-5"></i>
+                                                    <a class="dropdown-item" href="#" data-bs-toggle="modal"
+                                                        data-bs-target="#edit_salary"><i class="fa fa-pencil m-r-5"></i>
                                                         Edit</a>
-                                                    <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#delete_salary"><i class="fa fa-trash-o m-r-5"></i> Delete</a>
+                                                    <a class="dropdown-item" href="#" data-bs-toggle="modal"
+                                                        data-bs-target="#delete_salary"><i
+                                                            class="fa fa-trash-o m-r-5"></i> Delete</a>
                                                 </div>
                                             </div>
                                         </td>
@@ -892,17 +1008,21 @@
                                     <tr>
                                         <td>
                                             <h2 class="table-avatar">
-                                                <a href="profile" class="avatar"><img src="../public/img/profiles/avatar-13.jpg" alt=""></a>
+                                                <a href="profile" class="avatar"><img
+                                                        src="../public/img/profiles/avatar-13.jpg"
+                                                        alt=""></a>
                                                 <a href="profile">Bernardo Galaviz <span>Web Developer</span></a>
                                             </h2>
                                         </td>
                                         <td>FT-0007</td>
-                                        <td><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="086a6d7a66697a6c676f6964697e6172486d70696578646d266b6765">[email&#160;protected]</a>
+                                        <td><a href="/cdn-cgi/l/email-protection" class="__cf_email__"
+                                                data-cfemail="086a6d7a66697a6c676f6964697e6172486d70696578646d266b6765">[email&#160;protected]</a>
                                         </td>
                                         <td>1 Jan 2014</td>
                                         <td>
                                             <div class="dropdown">
-                                                <a href="" class="btn btn-white btn-sm btn-rounded dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">Web Developer </a>
+                                                <a href="" class="btn btn-white btn-sm btn-rounded dropdown-toggle"
+                                                    data-bs-toggle="dropdown" aria-expanded="false">Web Developer </a>
                                                 <div class="dropdown-menu">
                                                     <a class="dropdown-item" href="#">Software Engineer</a>
                                                     <a class="dropdown-item" href="#">Software Tester</a>
@@ -915,11 +1035,16 @@
                                         <td><a class="btn btn-sm btn-primary" href="salary_view">Generate Slip</a></td>
                                         <td class="text-end">
                                             <div class="dropdown dropdown-action">
-                                                <a href="#" class="action-icon dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"><i class="material-icons">more_vert</i></a>
+                                                <a href="#" class="action-icon dropdown-toggle"
+                                                    data-bs-toggle="dropdown" aria-expanded="false"><i
+                                                        class="material-icons">more_vert</i></a>
                                                 <div class="dropdown-menu dropdown-menu-right">
-                                                    <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#edit_salary"><i class="fa fa-pencil m-r-5"></i>
+                                                    <a class="dropdown-item" href="#" data-bs-toggle="modal"
+                                                        data-bs-target="#edit_salary"><i class="fa fa-pencil m-r-5"></i>
                                                         Edit</a>
-                                                    <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#delete_salary"><i class="fa fa-trash-o m-r-5"></i> Delete</a>
+                                                    <a class="dropdown-item" href="#" data-bs-toggle="modal"
+                                                        data-bs-target="#delete_salary"><i
+                                                            class="fa fa-trash-o m-r-5"></i> Delete</a>
                                                 </div>
                                             </div>
                                         </td>
@@ -927,17 +1052,21 @@
                                     <tr>
                                         <td>
                                             <h2 class="table-avatar">
-                                                <a href="profile" class="avatar"><img src="../public/img/profiles/avatar-01.jpg" alt=""></a>
+                                                <a href="profile" class="avatar"><img
+                                                        src="../public/img/profiles/avatar-01.jpg"
+                                                        alt=""></a>
                                                 <a href="profile">Lesley Grauer <span>Team Leader</span></a>
                                             </h2>
                                         </td>
                                         <td>FT-0008</td>
-                                        <td><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="dbb7bea8b7bea2bca9baaebea99bbea3bab6abb7bef5b8b4b6">[email&#160;protected]</a>
+                                        <td><a href="/cdn-cgi/l/email-protection" class="__cf_email__"
+                                                data-cfemail="dbb7bea8b7bea2bca9baaebea99bbea3bab6abb7bef5b8b4b6">[email&#160;protected]</a>
                                         </td>
                                         <td>1 Jun 2015</td>
                                         <td>
                                             <div class="dropdown">
-                                                <a href="" class="btn btn-white btn-sm btn-rounded dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">Team Leader </a>
+                                                <a href="" class="btn btn-white btn-sm btn-rounded dropdown-toggle"
+                                                    data-bs-toggle="dropdown" aria-expanded="false">Team Leader </a>
                                                 <div class="dropdown-menu">
                                                     <a class="dropdown-item" href="#">Software Engineer</a>
                                                     <a class="dropdown-item" href="#">Software Tester</a>
@@ -950,11 +1079,16 @@
                                         <td><a class="btn btn-sm btn-primary" href="salary_view">Generate Slip</a></td>
                                         <td class="text-end">
                                             <div class="dropdown dropdown-action">
-                                                <a href="#" class="action-icon dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"><i class="material-icons">more_vert</i></a>
+                                                <a href="#" class="action-icon dropdown-toggle"
+                                                    data-bs-toggle="dropdown" aria-expanded="false"><i
+                                                        class="material-icons">more_vert</i></a>
                                                 <div class="dropdown-menu dropdown-menu-right">
-                                                    <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#edit_salary"><i class="fa fa-pencil m-r-5"></i>
+                                                    <a class="dropdown-item" href="#" data-bs-toggle="modal"
+                                                        data-bs-target="#edit_salary"><i class="fa fa-pencil m-r-5"></i>
                                                         Edit</a>
-                                                    <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#delete_salary"><i class="fa fa-trash-o m-r-5"></i> Delete</a>
+                                                    <a class="dropdown-item" href="#" data-bs-toggle="modal"
+                                                        data-bs-target="#delete_salary"><i
+                                                            class="fa fa-trash-o m-r-5"></i> Delete</a>
                                                 </div>
                                             </div>
                                         </td>
@@ -962,17 +1096,21 @@
                                     <tr>
                                         <td>
                                             <h2 class="table-avatar">
-                                                <a href="profile" class="avatar"><img src="../public/img/profiles/avatar-16.jpg" alt=""></a>
+                                                <a href="profile" class="avatar"><img
+                                                        src="../public/img/profiles/avatar-16.jpg"
+                                                        alt=""></a>
                                                 <a href="profile">Jeffery Lalor <span>Team Leader</span></a>
                                             </h2>
                                         </td>
                                         <td>FT-0009</td>
-                                        <td><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="1d77787b7b786f64717c71726f5d78657c706d7178337e7270">[email&#160;protected]</a>
+                                        <td><a href="/cdn-cgi/l/email-protection" class="__cf_email__"
+                                                data-cfemail="1d77787b7b786f64717c71726f5d78657c706d7178337e7270">[email&#160;protected]</a>
                                         </td>
                                         <td>1 Jan 2013</td>
                                         <td>
                                             <div class="dropdown">
-                                                <a href="" class="btn btn-white btn-sm btn-rounded dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">Team Leader </a>
+                                                <a href="" class="btn btn-white btn-sm btn-rounded dropdown-toggle"
+                                                    data-bs-toggle="dropdown" aria-expanded="false">Team Leader </a>
                                                 <div class="dropdown-menu">
                                                     <a class="dropdown-item" href="#">Software Engineer</a>
                                                     <a class="dropdown-item" href="#">Software Tester</a>
@@ -985,11 +1123,16 @@
                                         <td><a class="btn btn-sm btn-primary" href="salary_view">Generate Slip</a></td>
                                         <td class="text-end">
                                             <div class="dropdown dropdown-action">
-                                                <a href="#" class="action-icon dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"><i class="material-icons">more_vert</i></a>
+                                                <a href="#" class="action-icon dropdown-toggle"
+                                                    data-bs-toggle="dropdown" aria-expanded="false"><i
+                                                        class="material-icons">more_vert</i></a>
                                                 <div class="dropdown-menu dropdown-menu-right">
-                                                    <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#edit_salary"><i class="fa fa-pencil m-r-5"></i>
+                                                    <a class="dropdown-item" href="#" data-bs-toggle="modal"
+                                                        data-bs-target="#edit_salary"><i class="fa fa-pencil m-r-5"></i>
                                                         Edit</a>
-                                                    <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#delete_salary"><i class="fa fa-trash-o m-r-5"></i> Delete</a>
+                                                    <a class="dropdown-item" href="#" data-bs-toggle="modal"
+                                                        data-bs-target="#delete_salary"><i
+                                                            class="fa fa-trash-o m-r-5"></i> Delete</a>
                                                 </div>
                                             </div>
                                         </td>
@@ -997,17 +1140,21 @@
                                     <tr>
                                         <td>
                                             <h2 class="table-avatar">
-                                                <a href="profile" class="avatar"><img src="../public/img/profiles/avatar-04.jpg" alt=""></a>
+                                                <a href="profile" class="avatar"><img
+                                                        src="../public/img/profiles/avatar-04.jpg"
+                                                        alt=""></a>
                                                 <a href="profile">Loren Gatlin <span>Android Developer</span></a>
                                             </h2>
                                         </td>
                                         <td>FT-0010</td>
-                                        <td><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="8de1e2ffe8e3eaecf9e1e4e3cde8f5ece0fde1e8a3eee2e0">[email&#160;protected]</a>
+                                        <td><a href="/cdn-cgi/l/email-protection" class="__cf_email__"
+                                                data-cfemail="8de1e2ffe8e3eaecf9e1e4e3cde8f5ece0fde1e8a3eee2e0">[email&#160;protected]</a>
                                         </td>
                                         <td>1 Jan 2013</td>
                                         <td>
                                             <div class="dropdown">
-                                                <a href="" class="btn btn-white btn-sm btn-rounded dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">Android Developer
+                                                <a href="" class="btn btn-white btn-sm btn-rounded dropdown-toggle"
+                                                    data-bs-toggle="dropdown" aria-expanded="false">Android Developer
                                                 </a>
                                                 <div class="dropdown-menu">
                                                     <a class="dropdown-item" href="#">Software Engineer</a>
@@ -1021,11 +1168,16 @@
                                         <td><a class="btn btn-sm btn-primary" href="salary_view">Generate Slip</a></td>
                                         <td class="text-end">
                                             <div class="dropdown dropdown-action">
-                                                <a href="#" class="action-icon dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"><i class="material-icons">more_vert</i></a>
+                                                <a href="#" class="action-icon dropdown-toggle"
+                                                    data-bs-toggle="dropdown" aria-expanded="false"><i
+                                                        class="material-icons">more_vert</i></a>
                                                 <div class="dropdown-menu dropdown-menu-right">
-                                                    <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#edit_salary"><i class="fa fa-pencil m-r-5"></i>
+                                                    <a class="dropdown-item" href="#" data-bs-toggle="modal"
+                                                        data-bs-target="#edit_salary"><i class="fa fa-pencil m-r-5"></i>
                                                         Edit</a>
-                                                    <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#delete_salary"><i class="fa fa-trash-o m-r-5"></i> Delete</a>
+                                                    <a class="dropdown-item" href="#" data-bs-toggle="modal"
+                                                        data-bs-target="#delete_salary"><i
+                                                            class="fa fa-trash-o m-r-5"></i> Delete</a>
                                                 </div>
                                             </div>
                                         </td>
@@ -1033,17 +1185,21 @@
                                     <tr>
                                         <td>
                                             <h2 class="table-avatar">
-                                                <a href="profile" class="avatar"><img src="../public/img/profiles/avatar-03.jpg" alt=""></a>
+                                                <a href="profile" class="avatar"><img
+                                                        src="../public/img/profiles/avatar-03.jpg"
+                                                        alt=""></a>
                                                 <a href="profile">Tarah Shropshire <span>Android Developer</span></a>
                                             </h2>
                                         </td>
                                         <td>FT-0011</td>
-                                        <td><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="9aeefbe8fbf2e9f2e8f5eae9f2f3e8ffdaffe2fbf7eaf6ffb4f9f5f7">[email&#160;protected]</a>
+                                        <td><a href="/cdn-cgi/l/email-protection" class="__cf_email__"
+                                                data-cfemail="9aeefbe8fbf2e9f2e8f5eae9f2f3e8ffdaffe2fbf7eaf6ffb4f9f5f7">[email&#160;protected]</a>
                                         </td>
                                         <td>1 Jan 2013</td>
                                         <td>
                                             <div class="dropdown">
-                                                <a href="" class="btn btn-white btn-sm btn-rounded dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">Android Developer
+                                                <a href="" class="btn btn-white btn-sm btn-rounded dropdown-toggle"
+                                                    data-bs-toggle="dropdown" aria-expanded="false">Android Developer
                                                 </a>
                                                 <div class="dropdown-menu">
                                                     <a class="dropdown-item" href="#">Software Engineer</a>
@@ -1057,11 +1213,16 @@
                                         <td><a class="btn btn-sm btn-primary" href="salary_view">Generate Slip</a></td>
                                         <td class="text-end">
                                             <div class="dropdown dropdown-action">
-                                                <a href="#" class="action-icon dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"><i class="material-icons">more_vert</i></a>
+                                                <a href="#" class="action-icon dropdown-toggle"
+                                                    data-bs-toggle="dropdown" aria-expanded="false"><i
+                                                        class="material-icons">more_vert</i></a>
                                                 <div class="dropdown-menu dropdown-menu-right">
-                                                    <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#edit_salary"><i class="fa fa-pencil m-r-5"></i>
+                                                    <a class="dropdown-item" href="#" data-bs-toggle="modal"
+                                                        data-bs-target="#edit_salary"><i class="fa fa-pencil m-r-5"></i>
                                                         Edit</a>
-                                                    <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#delete_salary"><i class="fa fa-trash-o m-r-5"></i> Delete</a>
+                                                    <a class="dropdown-item" href="#" data-bs-toggle="modal"
+                                                        data-bs-target="#delete_salary"><i
+                                                            class="fa fa-trash-o m-r-5"></i> Delete</a>
                                                 </div>
                                             </div>
                                         </td>
@@ -1298,7 +1459,8 @@
                                         <a href="javascript:void(0);" class="btn btn-primary continue-btn">Delete</a>
                                     </div>
                                     <div class="col-6">
-                                        <a href="javascript:void(0);" data-bs-dismiss="modal" class="btn btn-primary cancel-btn">Cancel</a>
+                                        <a href="javascript:void(0);" data-bs-dismiss="modal"
+                                            class="btn btn-primary cancel-btn">Cancel</a>
                                     </div>
                                 </div>
                             </div>
@@ -1314,10 +1476,42 @@
 
 
 
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+    <script src="../public/js/jquery-3.6.0.min.js"></script>
+
+    <script src="../public/js/bootstrap.bundle.min.js">
+    </script>
+
+    <script src="../public/js/jquery.slimscroll.min.js">
+    </script>
+
+    <script src="../public/js/select2.min.js"></script>
+
+    <script src="../public/js/moment.min.js"></script>
+    <script src="../public/js/bootstrap-datetimepicker.min.js">
+    </script>
+
+    <script
+        src="../public/plugins/bootstrap-tagsinput/bootstrap-tagsinput.min.js">
+    </script>
+
+    <script src="../public/js/jquery-ui.min.js"></script>
+    <script src="../public/js/fullcalendar.min.js"></script>
+    <script src="../public/js/jquery.fullcalendar.js"></script>
+
+    <script src="../public/js/jquery.dataTables.min.js">
+    </script>
+    <script src="../public/js/dataTables.bootstrap4.min.js">
+    </script>
+
+    <script src="../public/js/validation.init.js"></script>
+
+    <script src="../public/js/app.js"></script>
 
     <div class="modal right fade settings" id="settings" role="dialog" aria-modal="true">
         <div class="toggle-close">
-            <div class="toggle" data-bs-toggle="modal" data-bs-target="#settings"><i class="fa fa-cog fa-w-16 fa-spin fa-2x"></i>
+            <div class="toggle" data-bs-toggle="modal" data-bs-target="#settings"><i
+                    class="fa fa-cog fa-w-16 fa-spin fa-2x"></i>
             </div>
         </div>
         <div class="modal-dialog" role="document">
@@ -1330,13 +1524,24 @@
                                     <div class="theme-settings-swatches">
                                         <div class="themes">
                                             <div class="themes-body">
-                                                <ul id="theme-change" class="theme-colors border-0 list-inline-item list-unstyled mb-0">
-                                                    <li class="list-inline-item"><span class="theme-solid-black bg-orange" onclick="toggleTheme('style')"></span></li>
-                                                    <li class="list-inline-item"><span class="theme-solid-black bg-blue" onclick="toggleTheme('style-blue')"></span></li>
-                                                    <li class="list-inline-item"><span class="theme-solid-black bg-dark" onclick="toggleTheme('style-dark')"></span></li>
-                                                    <li class="list-inline-item"><span class="theme-solid-black bg-light" onclick="toggleTheme('style-light')"></span></li>
-                                                    <li class="list-inline-item"><span class="theme-solid-black bg-maroon" onclick="toggleTheme('style-maroon')"></span></li>
-                                                    <li class="list-inline-item"><span class="theme-solid-black bg-purple" onclick="toggleTheme('style-purple')"></span></li>
+                                                <ul id="theme-change"
+                                                    class="theme-colors border-0 list-inline-item list-unstyled mb-0">
+                                                    <li class="list-inline-item"><span
+                                                            class="theme-solid-black bg-orange"
+                                                            onclick="toggleTheme('style')"></span></li>
+                                                    <li class="list-inline-item"><span class="theme-solid-black bg-blue"
+                                                            onclick="toggleTheme('style-blue')"></span></li>
+                                                    <li class="list-inline-item"><span class="theme-solid-black bg-dark"
+                                                            onclick="toggleTheme('style-dark')"></span></li>
+                                                    <li class="list-inline-item"><span
+                                                            class="theme-solid-black bg-light"
+                                                            onclick="toggleTheme('style-light')"></span></li>
+                                                    <li class="list-inline-item"><span
+                                                            class="theme-solid-black bg-maroon"
+                                                            onclick="toggleTheme('style-maroon')"></span></li>
+                                                    <li class="list-inline-item"><span
+                                                            class="theme-solid-black bg-purple"
+                                                            onclick="toggleTheme('style-purple')"></span></li>
                                             </div>
                                         </div>
                                     </div>
@@ -1349,9 +1554,12 @@
         </div>
     </div>
     <div class="sidebar-contact">
-        <div class="toggle" data-bs-toggle="modal" data-bs-target="#settings"><i class="fa fa-cog fa-w-16 fa-spin fa-2x"></i></div>
+        <div class="toggle" data-bs-toggle="modal" data-bs-target="#settings"><i
+                class="fa fa-cog fa-w-16 fa-spin fa-2x"></i></div>
     </div>
     <div id="themesettings">
     </div>
 
 </body>
+
+</html>
