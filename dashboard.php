@@ -392,7 +392,7 @@ if (isset($_SESSION['user'])) {
                                 <div class="card-body">
                                     <span class="dash-widget-icon"><i class="fa fa-money-bill-alt"></i></span>
                                     <div class="dash-widget-info">
-                                        <h3>CAISSE</h3>
+                                        <h3>DIR MAT</h3>
                                     </div>
                                 </div>
                             </a>
@@ -413,9 +413,4 @@ if (isset($_SESSION['user'])) {
 
         <?php include 'js.html'; ?>
 </body>
-
-
-
-
-
 </html>
