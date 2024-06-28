@@ -62,7 +62,7 @@
     <div class="main-wrapper">
         <div class="header">
             <div class="header-left">
-                <a href="../dashaboard.php" class="logo">
+                <a href="../dashboard.php" class="logo">
                     <img src="../public/img/logo.png"
                         width="40" height="40" alt="">
                 </a>

@@ -293,7 +293,7 @@ if (isset($_SESSION['user'])) {
                     </div>
                     <div class="col-md-6 col-sm-6 col-lg-6 col-xl-3">
                         <div class="card dash-widget">
-                            <a href="">
+                        <a href="stock/index.php">
                                 <div class="card-body">
                                     <span class="dash-widget-icon"><i class="fa fa-cubes"></i></span>
                                     <div class="dash-widget-info">
@@ -307,7 +307,7 @@ if (isset($_SESSION['user'])) {
 
                     <div class="col-md-6 col-sm-6 col-lg-6 col-xl-3">
                         <div class="card dash-widget">
-                            <a href="">
+                        <a href="vente/index.php">
                                 <div class="card-body">
                                     <span class="dash-widget-icon"><i class="fa fa-cubes"></i></span>
                                     <div class="dash-widget-info">
@@ -320,7 +320,7 @@ if (isset($_SESSION['user'])) {
 
                     <div class="col-md-6 col-sm-6 col-lg-6 col-xl-3">
                         <div class="card dash-widget">
-                            <a href="">
+                        <a href="students/index.php">
                                 <div class="card-body">
                                     <span class="dash-widget-icon"><i class="fa fa-cubes"></i></span>
                                     <div class="dash-widget-info">
@@ -336,11 +336,11 @@ if (isset($_SESSION['user'])) {
                 <div class="row">
                     <div class="col-md-6 col-sm-6 col-lg-6 col-xl-3">
                         <div class="card dash-widget">
-                            <a href="">
+                        <a href="">
                                 <div class="card-body">
                                     <span class="dash-widget-icon"><i class="fa fa-cubes"></i></span>
                                     <div class="dash-widget-info">
-                                        <h3>PRE-INSCR</h3>
+                                        <h3>RENVOIS</h3>
 
                                     </div>
                                 </div>
@@ -349,7 +349,7 @@ if (isset($_SESSION['user'])) {
                     </div>
                     <div class="col-md-6 col-sm-6 col-lg-6 col-xl-3">
                         <div class="card dash-widget">
-                            <a href="">
+                        <a href="direction/index.php">
                                 <div class="card-body">
                                     <span class="dash-widget-icon"><i class="fa fa-cubes"></i></span>
                                     <div class="dash-widget-info">
@@ -363,7 +363,7 @@ if (isset($_SESSION['user'])) {
 
                     <div class="col-md-6 col-sm-6 col-lg-6 col-xl-3">
                         <div class="card dash-widget">
-                            <a href="">
+                        <a href="direction/index.php">
                                 <div class="card-body">
                                     <span class="dash-widget-icon"><i class="fa fa-cubes"></i></span>
                                     <div class="dash-widget-info">
@@ -376,7 +376,7 @@ if (isset($_SESSION['user'])) {
 
                     <div class="col-md-6 col-sm-6 col-lg-4 col-xl-3">
                         <div class="card dash-widget">
-                            <a href="#">
+                        <a href="direction/index.php">
                                 <div class="card-body">
                                     <span class="dash-widget-icon"><i class="fa fa-money-bill-alt"></i></span>
                                     <div class="dash-widget-info">

@@ -12,7 +12,7 @@
         content="admin, estimates, bootstrap, business, corporate, creative, management, minimal, modern, accounts, invoice, html5, responsive, CRM, Projects">
     <meta name="author" content="Dreamguys - Codeigniter Admin Template">
     <meta name="robots" content="noindex, nofollow">
-    <title>Preinscription | CRM Berakha</title>
+    <title>Eleves| CRM Berakha</title>
 
 
     <link rel="shortcut icon" type="image/x-icon"
@@ -62,7 +62,7 @@
     <div class="main-wrapper">
         <div class="header">
             <div class="header-left">
-                <a href="dashboard" class="logo">
+            <a href="../dashboard.php" class="logo">
                     <img src="../public/img/logo.png"
                         width="40" height="40" alt="">
                 </a>
@@ -75,7 +75,7 @@
                 </span>
             </a>
             <div class="page-title-box">
-                <h3>Dreamguy's Technologies</h3>
+                <h3>CRM Berakha</h3>
             </div>
             <a id="mobile_btn" class="mobile_btn" href="#sidebar"><i class="fa fa-bars"></i></a>
             <ul class="nav user-menu">

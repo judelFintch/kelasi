@@ -244,10 +244,10 @@
                 <div class="page-header">
                     <div class="row align-items-center">
                         <div class="col">
-                            <h3 class="page-title">Pre-Inscription</h3>
+                            <h3 class="page-title">Direction</h3>
                             <ul class="breadcrumb">
                                 <li class="breadcrumb-item"><a href="dashboard">Dashboard</a></li>
-                                <li class="breadcrumb-item active">Salary</li>
+                                <li class="breadcrumb-item active">Direction</li>
                             </ul>
                         </div>
                         <div class="col-auto float-end ms-auto">
