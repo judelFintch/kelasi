@@ -16,49 +16,33 @@
 	<link rel="shortcut icon" type="image/x-icon" href="../public/img/favicon.png">
 
 	<link rel="stylesheet" href="../public/css/bootstrap.min.css">
-
 	<link rel="stylesheet" href="../public/css/font-awesome.min.css">
-
 	<link rel="stylesheet" href="../public/css/line-awesome.min.css">
-
 	<link rel="stylesheet" href="../public/plugins/alertify/alertify.min.css">
-
 	<link rel="stylesheet" href="../public/plugins/lightbox/glightbox.min.css">
-
 	<link rel="stylesheet" href="../public/plugins/c3-chart/c3.min.css">
-
 	<link rel="stylesheet" href="../public/plugins//toastr/toatr.css">
-
 	<link rel="stylesheet" href="../public/css/select2.min.css">
-
 	<link rel="stylesheet" href="../public/css/bootstrap-datetimepicker.min.css">
-
 	<link rel="stylesheet" href="../public/css/fullcalendar.min.css">
-
 	<link rel="stylesheet" href="../public/plugins/summernote/dist/summernote-bs4.css">
-
 	<link rel="stylesheet" href="../public/css/dataTables.bootstrap4.min.css">
-
 	<link rel="stylesheet" href="../public/css/style.css">
 
 </head>
 
 <body>
 	<div class="main-wrapper">
-		<?php include 'partials/top.php'; ?>
-
-
-
-
+		<?php include 'partials/left.php'; ?>
 		<div class="page-wrapper">
 			<div class="content container-fluid">
 				<div class="page-header">
 					<div class="row align-items-center">
 						<div class="col">
-							<h3 class="page-title">Direction</h3>
+							<h3 class="page-title">Caisse</h3>
 							<ul class="breadcrumb">
 								<li class="breadcrumb-item"><a href="dashboard">Dashboard</a></li>
-								<li class="breadcrumb-item active">Direction</li>
+								<li class="breadcrumb-item active">Caisse</li>
 							</ul>
 						</div>
 						<div class="col-auto float-end ms-auto">
