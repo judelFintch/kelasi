@@ -1,7 +1,7 @@
 <?php 
 	include('header.php'); 
 	 if(isset($_SESSION['user'])){
-	 	 require_once('../bdd_app_gst_connect/allscirpt.inc.php');
+	 	 require_once('../config/allscirpt.inc.php');
 	 }
 	 else{
 	 header("Location:index.php");}
