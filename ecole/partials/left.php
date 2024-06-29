@@ -6,12 +6,11 @@
                             <span>Main</span>
                         </li>
                         <li class="submenu">
-                            <a href="#"><i class="la la-dashboard"></i> <span> Dashboard</span> <span
-                                    class="menu-arrow"></span></a>
-                            <ul style="display: none;">
-                                <li><a class="" href="dashboard">Admin Dashboard</a></li>
-                                <li><a class="" href="employee_dashboard">Employee Dashboard</a></li>
-                            </ul>
+                        <li class="">
+                            <a href="../dashboard.php"><i class="la la-dashboard"></i> <span>Dashboard</span></a>
+                        </li>
+                          
+                            
                         </li>
                         <li class="submenu">
                             <a href="#"><i class="la la-cube"></i> <span> Apps</span> <span
