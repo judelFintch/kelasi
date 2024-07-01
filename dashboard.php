@@ -203,6 +203,61 @@ if (isset($_SESSION['user'])) {
                         </div>
                     </div>
                 </div>
+
+                <div class="row">
+                    <div class="col-md-6 col-sm-6 col-lg-6 col-xl-3">
+                        <div class="card dash-widget">
+                        <a href="">
+                                <div class="card-body">
+                                    <span class="dash-widget-icon"><i class="fa fa-cubes"></i></span>
+                                    <div class="dash-widget-info">
+                                        <h3>NURSING</h3>
+
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-lg-6 col-xl-3">
+                        <div class="card dash-widget">
+                        <a href="direction/">
+                                <div class="card-body">
+                                    <span class="dash-widget-icon"><i class="fa fa-cubes"></i></span>
+                                    <div class="dash-widget-info">
+                                        <h3>BIBLIOTH</h3>
+
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-sm-6 col-lg-6 col-xl-3">
+                        <div class="card dash-widget">
+                        <a href="direction/">
+                                <div class="card-body">
+                                    <span class="dash-widget-icon"><i class="fa fa-cubes"></i></span>
+                                    <div class="dash-widget-info">
+                                        <h3>USERS</h3>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-sm-6 col-lg-4 col-xl-3">
+                        <div class="card dash-widget">
+                        <a href="direction/">
+                                <div class="card-body">
+                                    <span class="dash-widget-icon"><i class="fa fa-money-bill-alt"></i></span>
+                                    <div class="dash-widget-info">
+                                        <h3>CONFIG</h3>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
 
