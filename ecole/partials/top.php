@@ -98,9 +98,9 @@
                         <span><?= $_SESSION['user'] ?></span>
                     </a>
                     <div class="dropdown-menu">
-                        <a class="dropdown-item" href="profile">My Profile</a>
-                        <a class="dropdown-item" href="settings">Settings</a>
-                        <a class="dropdown-item" href="auth-login">Logout</a>
+                        <a class="dropdown-item" href="">My Profile</a>
+                        <a class="dropdown-item" href="">Settings</a>
+                        <a class="dropdown-item" href="">Logout</a>
                     </div>
                 </li>
             </ul>
