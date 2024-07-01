@@ -33,6 +33,7 @@
 
 <body>
 	<div class="main-wrapper">
+	<?php include 'partials/top.php'; ?>
 		<?php include 'partials/left.php'; ?>
 		<div class="page-wrapper">
 			<div class="content container-fluid">
@@ -52,52 +53,7 @@
 				</div>
 
 
-				<div class="row filter-row">
-					<div class="col-sm-6 col-md-3 col-lg-3 col-xl-2 col-12">
-						<div class="form-group form-focus">
-							<input type="text" class="form-control floating">
-							<label class="focus-label">Employee Name</label>
-						</div>
-					</div>
-					<div class="col-sm-6 col-md-3 col-lg-3 col-xl-2 col-12">
-						<div class="form-group custom-select">
-							<select class="select floating">
-								<option value="">Select Role</option>
-								<option value="">Employee</option>
-								<option value="1">Manager</option>
-							</select>
-						</div>
-					</div>
-					<div class="col-sm-6 col-md-3 col-lg-3 col-xl-2 col-12">
-						<div class="form-group custom-select">
-							<select class="select floating">
-								<option>Leave Status</option>
-								<option> Pending </option>
-								<option> Approved </option>
-								<option> Rejected </option>
-							</select>
-						</div>
-					</div>
-					<div class="col-sm-6 col-md-3 col-lg-3 col-xl-2 col-12">
-						<div class="form-group form-focus">
-							<div class="cal-icon">
-								<input class="form-control floating datetimepicker" type="text">
-							</div>
-							<label class="focus-label">From</label>
-						</div>
-					</div>
-					<div class="col-sm-6 col-md-3 col-lg-3 col-xl-2 col-12">
-						<div class="form-group form-focus">
-							<div class="cal-icon">
-								<input class="form-control floating datetimepicker" type="text">
-							</div>
-							<label class="focus-label">To</label>
-						</div>
-					</div>
-					<div class="col-sm-6 col-md-3 col-lg-3 col-xl-2 col-12">
-						<a href="#" class="btn btn-success w-100"> Search </a>
-					</div>
-				</div>
+				
 
 				<div class="row">
 					<div class="col-md-12">
