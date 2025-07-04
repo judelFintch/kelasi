@@ -28,7 +28,6 @@ function rechercheFrais($codefacture){
  	 if(substr($codefacture,0,1)=='D'){
  	 	$depense=recherDepense($codefacture);
  	 	if($depense==0){
- 	 		echo 0;
  	 	}
  	 	else{
  	 	foreach ($depense as $key ) {
@@ -52,7 +51,6 @@ function rechercheFrais($codefacture){
  	 if(substr($codefacture,0,1)=='S'){
  	    	$selection_facture=rechercheFrais($codefacture);
  	 	if($selection_facture==0){
- 	 		  echo 0;
  	 	}
  	 	else{
      	 	foreach ($selection_facture as $key ) {

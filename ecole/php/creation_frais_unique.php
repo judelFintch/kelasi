@@ -35,13 +35,11 @@ require_once('../../bdd_app_gst_connect/allscirpt.inc.php');
     	  	  	$section=htmlspecialchars($section);
     	  	  	$libelle=@mysql_real_escape_string($libelle);
     	        insertionNewFraisUsd($section,$devise,$prix,$libelle,$classer,$specification,$compte,$annacad_art);
-    	  	  	echo 1;
     	  	  }
     	  	   if($devise=='CDF'){
     	  	  	$section=htmlspecialchars($section);
     	  	  	$libelle=@mysql_real_escape_string($libelle);
     	        insertionNewFraisCdf($section,$devise,$prix,$libelle,$classer,$specification,$compte,$annacad_art);
-    	  	  	echo 1;
     	  	}
     	  }
     }

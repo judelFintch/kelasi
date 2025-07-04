@@ -38,7 +38,6 @@
     	    $modification=$bdd->query("UPDATE frais_insciption SET nom='$nom_eleve' WHERE matricule='$matricule_detail' ") or die(print_r($bdd->errorinfo()));
 
     	   $modification=$bdd->query("UPDATE frais_insciption SET classe='$classe_mod' WHERE matricule='$matricule_detail' AND annee_scolaire='$annacad'") or die(print_r($bdd->errorinfo()));
-            echo 1;
 
 
 

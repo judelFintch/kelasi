@@ -203,7 +203,6 @@ else{
 
 function InsertionCorbeilleDepense($codefact){
   $user=1;
-  echo 1;
   $donneesDepense=selectionElementDepense($codefact);
   foreach ($donneesDepense as $key) {
     # code...

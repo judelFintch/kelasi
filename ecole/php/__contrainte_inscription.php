@@ -12,7 +12,6 @@
   //$nom=$bdd->query("SELECT nom ");
  }
 if(isset($_POST['nom'])){
-	print_r($_POST);
 	 extract($_POST);
 	   $nom=filtrageVariable($nom);
 	   $postnom=filtrageVariable($postnom);
@@ -25,10 +24,8 @@ if(isset($_POST['nom'])){
   $classe_return=verificationclasseeleve($classe);
    $classe_return['nomclasse'];
      if($classe_return['nomclasse']==$classe){
-      echo 1;
     }
      else{
-       echo 0;
     }
   
  }

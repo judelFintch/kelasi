@@ -266,7 +266,6 @@ $insertion_info_usd=$bdd->query("INSERT INTO tempons VALUES('','$codefacture', '
 	      	                                                          '$pid',
 	      	                                                          '$compte','$annacad')");
 //updateMounth($matricule,$mois,$codefacture,$annacad);
-          //echo 1;
 }
 	      else{
 
@@ -286,7 +285,6 @@ $insertion_info_usd=$bdd->query("INSERT INTO tempons VALUES('','$codefacture', '
 	      	                                                          '$pid',
 	      	                                                          '$compte','$annacad')");
 //updateMounth($matricule,$mois,$codefacture,$annacad);
-//echo 1;
 }
         
 		  		 
@@ -318,7 +316,6 @@ $insertion_info_usd=$bdd->query("INSERT INTO tempons VALUES('','$codefacture', '
 	      	                                                          '$devise',
 	      	                                                          '$matricule','Frais appoint','$pid','$compte','$annacad')");
 
-	       updateMounth($matricule,$mois,$codefacture,$annacad); echo 1;
 
 
 	      }
@@ -339,7 +336,6 @@ $insertion_info_usd=$bdd->query("INSERT INTO tempons VALUES('','$codefacture', '
 	      	                                                          '$devise',
 	      	                                                          '$matricule','Frais appoint','$pid','$compte','$annacad')");
 
-	       updateMounth($matricule,$mois,$codefacture,$annacad); echo 1;
 
 
 	      }
@@ -369,7 +365,6 @@ $insertion_info_usd=$bdd->query("INSERT INTO tempons VALUES('','$codefacture', '
 	      	                                                          '$devise',
 	      	                                                          '$matricule','Frais appoint','$pid','$compte','$annacad')");
 
-	       updateMounth($matricule,$mois,$codefacture,$annacad); echo 1;
 
 
 	      }
@@ -390,7 +385,6 @@ $insertion_info_usd=$bdd->query("INSERT INTO tempons VALUES('','$codefacture', '
 	      	                                                          '$devise',
 	      	                                                          '$matricule','Frais appoint','$pid','$compte','$annacad')");
 
-	       updateMounth($matricule,$mois,$codefacture,$annacad); echo 1;
 
 
 	      }
@@ -421,7 +415,6 @@ $insertion_info_usd=$bdd->query("INSERT INTO tempons VALUES('','$codefacture', '
 	      	                                                          '$devise',
 	      	                                                          '$matricule','Frais appoint','$pid','$compte','$annacad')");
 
-	       updateMounth($matricule,$mois,$codefacture,$annacad); echo 1;
 
 
 	      }
@@ -442,7 +435,6 @@ $insertion_info_usd=$bdd->query("INSERT INTO tempons VALUES('','$codefacture', '
 	      	                                                          '$devise',
 	      	                                                          '$matricule','Frais appoint','$pid','$compte','$annacad')");
 
-	       updateMounth($matricule,$mois,$codefacture,$annacad); echo 1;
 
 
 	      }
@@ -472,7 +464,6 @@ $insertion_info_usd=$bdd->query("INSERT INTO tempons VALUES('','$codefacture', '
 	      	                                                          '$devise',
 	      	                                                          '$matricule','Frais appoint','$pid','$compte','$annacad')");
 
-	       updateMounth($matricule,$mois,$codefacture,$annacad); echo 1;
 
 
 	      }
@@ -493,7 +484,6 @@ $insertion_info_usd=$bdd->query("INSERT INTO tempons VALUES('','$codefacture', '
 	      	                                                          '$devise',
 	      	                                                          '$matricule','Frais appoint','$pid','$compte','$annacad')");
 
-	       updateMounth($matricule,$mois,$codefacture,$annacad); echo 1;
 
 
 	      }
@@ -527,7 +517,6 @@ $insertion_info_usd=$bdd->query("INSERT INTO tempons VALUES('','$codefacture', '
 	      	                                                          '$devise',
 	      	                                                          '$matricule','Frais appoint','$pid','$compte','$annacad')");
 
-	       updateMounth($matricule,$mois,$codefacture,$annacad); echo 1;
 
 
 	      }
@@ -549,7 +538,6 @@ $insertion_info_usd=$bdd->query("INSERT INTO tempons VALUES('','$codefacture', '
 	      	                                                          '$devise',
 	      	                                                          '$matricule','Frais appoint','$pid','$compte','$annacad')");
 
-	       updateMounth($matricule,$mois,$codefacture,$annacad); echo 1;
 
 
 	      }
@@ -583,7 +571,6 @@ $insertion_info_usd=$bdd->query("INSERT INTO tempons VALUES('','$codefacture', '
 	      	                                                          '$devise',
 	      	                                                          '$matricule','Frais appoint','$pid','$compte','$annacad')");
 
-	       updateMounth($matricule,$mois,$codefacture,$annacad); echo 1;
 
 
 	      }
@@ -605,7 +592,6 @@ $insertion_info_usd=$bdd->query("INSERT INTO tempons VALUES('','$codefacture', '
 	      	                                                          '$devise',
 	      	                                                          '$matricule','Frais appoint','$pid','$compte','$annacad')");
 
-	       updateMounth($matricule,$mois,$codefacture,$annacad); echo 1;
 
 
 	      }
@@ -634,7 +620,6 @@ $insertion_info_usd=$bdd->query("INSERT INTO tempons VALUES('','$codefacture', '
 	      	                                                          '$devise',
 	      	                                                          '$matricule','Frais appoint','$pid','$compte','$annacad')");
 
-	       updateMounth($matricule,$mois,$codefacture,$annacad); echo 1;
 
 
 	      }
@@ -656,7 +641,6 @@ $insertion_info_usd=$bdd->query("INSERT INTO tempons VALUES('','$codefacture', '
 	      	                                                          '$devise',
 	      	                                                          '$matricule','Frais appoint','$pid','$compte','$annacad')");
 
-	       updateMounth($matricule,$mois,$codefacture,$annacad); echo 1;
 
 
 	      }
@@ -790,7 +774,6 @@ if(isset($_POST['tmp_tt'])){
       echo  utf8_encode('<p>Total  '.$usd_tmp.' USD | '.$cdf_tmp.' CDF</p>');
    }
    else{
-   	echo 0;
    }
 }
 //uniquement pour l inscirption et la reinscription
@@ -814,14 +797,12 @@ if(isset($_POST['mois']) AND isset($_POST['matricule']) AND isset($_POST['ChoixD
   }
  if (isset($_POST['status'])){
  	# code...
-  print_r($_POST);
 
  }
  //traitement autres frais
   if(!empty($_POST['id'])){
  	extract($_POST);
  	$frais_unique= insertionElementTempons($id,$matricule_autre,$annacad,$deviseUniqueFrais);
- 	echo 1;
   }
  //traitement de vente articles
  if(isset($_POST['matricule_vente']) || !empty($_POST['matricule_vente'])){
@@ -830,7 +811,6 @@ if(isset($_POST['mois']) AND isset($_POST['matricule']) AND isset($_POST['ChoixD
   	$libelle=@mysql_real_escape_string($libelle);
   	$deviseUniqueArticle;
  	insertionElementTemponsVente($id,$libelle,$matricule_vente,$qteAcheter,$annacad,$deviseUniqueArticle);
- 	echo 1;
   };
 
   if(isset($_POST['valideOperation']) and isset($_POST['matricule'])){

@@ -3,7 +3,6 @@
    function Authenfication($login,$passwd){
         global $bdd;    
         //requette
-        echo 1;
         $requete = $bdd->prepare('SELECT * FROM user WHERE login = :login AND motp = :passwd');
         $requete->bindParam(':login', $login);
         $requete->bindParam(':passwd', $passwd);

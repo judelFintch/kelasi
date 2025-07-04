@@ -9,10 +9,8 @@ require_once('../bdd_app_gst_connect/allscirpt.inc.php');
         $requete->execute();
         $resultat = $requete->fetch();
 		if($resultat == 0){
-			echo 0;
 		}
 		else{
-			echo 1;
 		}
 }
 
