@@ -83,8 +83,6 @@ label{
 		</div>
 		
 		
-</body>
-</html><br />
 
 
 <?php

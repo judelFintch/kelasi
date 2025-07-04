@@ -81,9 +81,6 @@ $requete1 = $bdd->query("SELECT* FROM enseignant GROUP BY nomsens");
 		</div>
 		
 		
-</body>
-</html><br />
-
 <?php
 	
 	if (isset($_POST['nomc']) and $_POST['categoriec']!=1) {

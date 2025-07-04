@@ -54,17 +54,16 @@
 		</div>
 		
 		
-</body>
-</html><br />
 <?php
-		if (isset($_POST['nomeleve'])) {
-				$matricule=htmlentities($_POST['nomeleve']);
-				$datedebut= htmlentities($_POST['datedebut']);
-				$datefin=htmlentities($_POST['datefin']);
-				$mois=htmlentities($_POST['mois']);
-				EffectuerUneDerogationEleve($matricule,$datedebut,$datefin,$mois);
-			}
-	include("recherche.php");
-
+                if (isset($_POST['nomeleve'])) {
+                                $matricule=htmlentities($_POST['nomeleve']);
+                                $datedebut= htmlentities($_POST['datedebut']);
+                                $datefin=htmlentities($_POST['datefin']);
+                                $mois=htmlentities($_POST['mois']);
+                                EffectuerUneDerogationEleve($matricule,$datedebut,$datefin,$mois);
+                        }
+        include("recherche.php");
 ?>
 <?php include('footer.php');  ob_flush();?>
+</body>
+</html>

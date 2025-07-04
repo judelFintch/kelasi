@@ -67,9 +67,6 @@ display:table-cell;}
 			</p>
 		</article>
 	</div>
-</body>
-</html><br />
-
 <?php
 	include("connexion.php");
 	if(isset($_POST['rech'])){

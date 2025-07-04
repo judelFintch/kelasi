@@ -1,5 +1,5 @@
+<?php include('header.php');?>
 <body>
-	<?php include('header.php');?>
 	 <!--formulaire enregistrement frais hors systeme -->
 	 <div class="row">
 			 <div class="col-lg-4">
