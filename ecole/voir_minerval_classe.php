@@ -56,8 +56,6 @@ display:table-cell;}
 			</p>
 		</article>
 	</div>
-</body>
-</html><br />
 
 <?php
 	if(isset($_POST['rech'])){
@@ -68,7 +66,7 @@ display:table-cell;}
 		echo '<p style="color:red;" align="center">Vide pour cette recherche !</p>';
 	}
 	else{
-		echo '<table class="table table-stripped table-bordered table-condensed" id="cont" style="background-color:white;"><th>N°</th><th>MATRICULE</th><th>NOM</th><th>POSTNOM</th><th>PRENOM</th><th>CODE PARENT</th><th>ADRESSE</th>';
+		echo '<table class="table table-stripped table-bordered table-condensed" id="cont" style="background-color:white;"><th>NÂ°</th><th>MATRICULE</th><th>NOM</th><th>POSTNOM</th><th>PRENOM</th><th>CODE PARENT</th><th>ADRESSE</th>';
 		
 	while ($resultat = $requete->fetch()){
 		echo '<tr><td>'.$n++.'</td><td><a href="detail.php?id='.$resultat['id'].'">'.$resultat['matr'].'</a></td><td>'.$resultat['nom'].'</td><td>'.$resultat['postnom'].'</td><td>'.$resultat['prenom'].'</td><td>'.$resultat['codep'].'</td><td>'.$resultat['adresse'].'</td></tr>';

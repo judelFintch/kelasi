@@ -93,9 +93,6 @@ color:royalblue;}
 		</div>
 		
 		
-</body>
-</html><br />
-
 <?php
 
 	include("recherche.php");

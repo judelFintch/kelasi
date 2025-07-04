@@ -58,24 +58,24 @@ label{
 		</div>
 		
 		
-</body>
-</html><br />
 <?php
-	
-		if (isset($_POST['entete'])) {
-			$date=date('Y-m-d');
-				$entete=htmlentities($_POST['entete']);
-				$slogan=(htmlentities($_POST['slogan']);
-				$site=htmlentities($_POST['site']);
-				$addresse=htmlentities($_POST['addresse']);
-				$tel=htmlentities($_POST['tel']);
-				$mail=htmlentities($_POST['mail']);
-			    $bdd->exec("INSERT INTO info_application  VALUES('','$site','$tel','$addresse','$mail','$entete','$slogan')")or die(print_r($bdd->errorInfo()));
-				echo '<p style="color:green;" align="center">Fait correctement!</p>';
-			
-			}
-		
+
+                if (isset($_POST['entete'])) {
+                        $date=date('Y-m-d');
+                                $entete=htmlentities($_POST['entete']);
+                                $slogan=(htmlentities($_POST['slogan']);
+                                $site=htmlentities($_POST['site']);
+                                $addresse=htmlentities($_POST['addresse']);
+                                $tel=htmlentities($_POST['tel']);
+                                $mail=htmlentities($_POST['mail']);
+                            $bdd->exec("INSERT INTO info_application  VALUES('','$site','$tel','$addresse','$mail','$entete','$slogan')")or die(print_r($bdd->errorInfo()));
+                                echo '<p style="color:green;" align="center">Fait correctement!</p>';
+
+                        }
+
 include("recherche.php");
 
 ?>
 <?php include('footer.php');  ?>
+</body>
+</html>

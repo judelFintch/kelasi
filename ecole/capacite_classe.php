@@ -73,7 +73,7 @@ li{
   <div class="form-group">
 
     <label class="sr-only" for="exampleInputEmail3">Classe</label>
-    <input type="text" class="form-control" id="exampleInputEmail3" placeholder="" value="'.$selection['categorie_classe'].'"" readonly="" name="classe" >
+    <input type="text" class="form-control" id="exampleInputEmail3" value="'.$selection['categorie_classe'].'"" readonly="" name="classe" >
   </div>
   <div class="form-group">
     <label class="sr-only" for="exampleInputPassword3">Frais Inscription</label>

@@ -1,5 +1,4 @@
 <?php include('header.php'); ?>
-</head>
 <body>
   <?php 
       if(isset($_GET['classe'])){ 

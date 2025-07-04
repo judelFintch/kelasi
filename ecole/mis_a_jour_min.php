@@ -93,4 +93,4 @@ else{
 	<?php include('footer.php');  ?>	
 		
 </body>
-</html><br />
+</html>
