@@ -11,8 +11,11 @@ scale=1.0">
 <?php include('liens_boostrap.php') ?>
 <script src="../js/metro.js"></script>
 <script type="text/javascript" src="js/__heure.js"></script>
-	<div id="cont" >
-	 <div class="row">
+</head>
+<body>
+
+        <div id="cont" >
+         <div class="row">
    <div class="col-md-6 ">
     <?php  echo '<a href="'.$info_entete['siteweb'].'">';  ?>
             <h1 class="entete"><?php  echo $entete=$info_entete['Entete'];?></h1>
@@ -177,7 +180,6 @@ scale=1.0">
 
 </div>
 <?php  include('modals.php') ?>
-</head>
 <button class='btnEffacerTab'><img src='img/module_notinstall.png'></button>
 <div class="detailListes"> </div>
 <script type="text/javascript" src="js/__search.js"></script>
