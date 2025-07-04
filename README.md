@@ -15,3 +15,10 @@ following variables when deploying the application:
 
 If a variable is not provided, the default value shown above is used. This
 allows the application to run locally without additional configuration.
+
+## Dependencies
+
+Third-party libraries such as Bootstrap and jQuery should be installed via
+Composer or npm. These dependencies must be placed in the `vendor/` directory,
+which is excluded from version control by the `.gitignore` file. Only
+project-specific assets are committed to the repository.
