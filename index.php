@@ -1,4 +1,8 @@
-<?php session_start();$token=$_SESSION['token']=md5(uniqid(mt_rand(),true)); ?>
+<?php
+session_start();
+// Generate a cryptographically secure token for this session
+$token = $_SESSION['token'] = bin2hex(random_bytes(32));
+?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
