@@ -263,7 +263,6 @@ $insertion_info_usd=$bdd->query("INSERT INTO tempons VALUES('','$codefacture', '
 	      	                                                          '$pid',
 	      	                                                          '$compte','$annacad')");
 updateMounth($matricule,$mois,$codefacture,$annacad);
-          echo 1;
 }
 	      else{
 
@@ -283,7 +282,6 @@ updateMounth($matricule,$mois,$codefacture,$annacad);
 	      	                                                          '$pid',
 	      	                                                          '$compte','$annacad')");
 updateMounth($matricule,$mois,$codefacture,$annacad);
-echo 1;
 }
         
 		  		 
@@ -311,8 +309,6 @@ echo 1;
 	      	                                                          '$matricule','Frais appoint','$pid','$compte','$annacad')");
 
 	       updateMounth($matricule,$mois,$codefacture,$annacad);
-	        echo 1;
-
 
 	      }
 
@@ -334,8 +330,6 @@ echo 1;
 	      	                                                          '$matricule','Frais appoint','$pid','$compte','$annacad')");
 
 	       updateMounth($matricule,$mois,$codefacture,$annacad);
-	        echo 1;
-
 
 	      }
 		 
@@ -364,10 +358,8 @@ echo 1;
 	      	                                                          '$devise',
 	      	                                                          '$matricule','Frais appoint','$pid','$compte','$annacad')");
 
-	       updateMounth($matricule,$mois,$codefacture,$annacad); echo 1;
 
 
-	      }
 
 
 
@@ -385,11 +377,9 @@ echo 1;
 	      	                                                          '$devise',
 	      	                                                          '$matricule','Frais appoint','$pid','$compte','$annacad')");
 
-	       updateMounth($matricule,$mois,$codefacture,$annacad); echo 1;
 
 
 	      }
-		 
 		 break;
 		 
 		 case 'Mars':
@@ -413,11 +403,9 @@ echo 1;
 	      	                                                          '$devise',
 	      	                                                          '$matricule','Frais appoint','$pid','$compte','$annacad')");
 
-	      updateMounth($matricule,$mois,$codefacture,$annacad); echo 1;
 
 
 	      }
-
 
 
 	      else{
@@ -435,13 +423,11 @@ echo 1;
 	      	                                                          '$devise',
 	      	                                                          '$matricule','Frais appoint','$pid','$compte','$annacad')");
 
-	       updateMounth($matricule,$mois,$codefacture,$annacad); echo 1;
 
 
 	      }
 		 
 		 break;
-
 		  case 'Avril':
 		 $montantmensuelnormalecdf=$montantmensuelnormale*$taux;
 		 $ajout=$montantmensuelnormale/5;
@@ -463,14 +449,12 @@ echo 1;
 	      	                                                          '$devise',
 	      	                                                          '$matricule','Frais appoint','$pid','$compte','$annacad')");
 
-	       updateMounth($matricule,$mois,$codefacture,$annacad); echo 1;
 
 
 	      }
 
 
 
-	      else{
 
 	      $conversioncdf;
 
@@ -485,7 +469,6 @@ echo 1;
 	      	                                                          '$devise',
 	      	                                                          '$matricule','Frais appoint','$pid','$compte','$annacad')");
 
-	       updateMounth($matricule,$mois,$codefacture,$annacad); echo 1;
 
 
 	      }
@@ -493,7 +476,6 @@ echo 1;
 		 break;
 
 		 case 'Mai':
-		 $montantmensuelnormalecdf=$montantmensuelnormale*$taux;
 		 $ajout=$montantmensuelnormale/5;
 
 		 $montantmensuelnormale=$montantmensuelnormale+$ajout;
@@ -513,7 +495,6 @@ echo 1;
 	      	                                                          '$devise',
 	      	                                                          '$matricule','Frais appoint','$pid','$compte','$annacad')");
 
-	       updateMounth($matricule,$mois,$codefacture,$annacad); echo 1;
 
 
 	      }
@@ -522,7 +503,6 @@ echo 1;
 
 	      else{
 
-	      $conversioncdf;
 
 	      $insertion_info_usd=$bdd->query("INSERT INTO tempons VALUES('',
 	      	                                                          '$codefacture',
@@ -535,7 +515,6 @@ echo 1;
 	      	                                                          '$devise',
 	      	                                                          '$matricule','Frais appoint','$pid','$compte','$annacad')");
 
-	       updateMounth($matricule,$mois,$codefacture,$annacad); echo 1;
 
 
 	      }
@@ -545,7 +524,6 @@ echo 1;
 		 default:
 		
 		 
-		 $conversioncdf=$montantmensuelnormale*$taux;
 
 
 		 $montantmensuelnormale_juin=$montantmensuelnormale;
@@ -567,7 +545,6 @@ echo 1;
 	      	                                                          '$devise',
 	      	                                                          '$matricule','Frais appoint','$pid','$compte','$annacad')");
 
-	       updateMounth($matricule,$mois,$codefacture,$annacad); echo 1;
 
 
 	      }
@@ -578,7 +555,6 @@ echo 1;
 
 	      $conversioncdf;
 
-	      $insertion_info_usd=$bdd->query("INSERT INTO tempons VALUES('',
 	      	                                                          '$codefacture',
 	      	                                                          '$mois',
 	      	                                                          '0',
@@ -589,7 +565,6 @@ echo 1;
 	      	                                                          '$devise',
 	      	                                                          '$matricule','Frais appoint','$pid','$compte','$annacad')");
 
-	       updateMounth($matricule,$mois,$codefacture,$annacad); echo 1;
 
 
 	      }
@@ -601,7 +576,6 @@ echo 1;
 global $bdd;
 
  $mois= @mysql_real_escape_string($mois);
-switch ($mois) {
           case 'Septembre':
             # code...
         $updatesete=$bdd->query("UPDATE bsituation SET M_sep='En ordre' where matricule='$matricule' AND anneescolaire='$annacad'");
@@ -706,7 +680,6 @@ if(isset($_POST['tmp_tt'])){
       echo  utf8_encode('<p>Total  '.$usd_tmp.' USD | '.$cdf_tmp.' CDF</p>');
    }
    else{
-   	echo 0;
    }
 }
 //uniquement pour l inscirption et la reinscription
@@ -730,14 +703,12 @@ if(isset($_POST['mois']) AND isset($_POST['matricule']) AND isset($_POST['ChoixD
   }
  if (isset($_POST['status'])){
  	# code...
-  print_r($_POST);
 
  }
  //traitement autres frais
   if(!empty($_POST['id'])){
  	extract($_POST);
  	$frais_unique= insertionElementTempons($id,$matricule_autre,$annacad,$deviseUniqueFrais);
- 	echo 1;
   }
  //traitement de vente articles
  if(isset($_POST['matricule_vente']) || !empty($_POST['matricule_vente'])){
@@ -746,11 +717,9 @@ if(isset($_POST['mois']) AND isset($_POST['matricule']) AND isset($_POST['ChoixD
   	$libelle=@mysql_real_escape_string($libelle);
   	$deviseUniqueArticle;
  	insertionElementTemponsVente($id,$libelle,$matricule_vente,$qteAcheter,$annacad,$deviseUniqueArticle);
- 	echo 1;
   };
 
   if(isset($_POST['valideOperation']) and isset($_POST['matricule'])){
- 	$mois= ElementTempons($_POST['matricule']);
 	$infobaseEleve=InformationEleve($_POST['matricule']);
  	$noms=$infobaseEleve['nom'].' '.$infobaseEleve['postnom'];
  	$classe=$infobaseEleve['promotion'];
@@ -760,7 +729,6 @@ if(isset($_POST['mois']) AND isset($_POST['matricule']) AND isset($_POST['ChoixD
  	 $mois=$key['libelle'];
  	 $devise=$key['devise'];
  	 $taux=$key['taux'];
- 	 $usd=$key['prix_usd'];
  	 $cdf=$key['prix_cdf'];
  	 $nature=$key['nature'];
  	 $compte=$key['compte'];

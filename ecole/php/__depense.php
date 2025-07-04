@@ -35,5 +35,4 @@ if (isset($_POST['montant'])) {
 				$numcompte=$_POST['numcompte'];
 				EffectuerUneDepense($montant,$motif_dep,$devise,$compte,$nom,$numcompte,$date_op,$numcompte);
 
-				echo 1;
 			}

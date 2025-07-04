@@ -4921,14 +4921,14 @@ $.widget( "metro.dialog" , {
 window.showMetroDialog = function (el, place){
     var dialog = $(el), dialog_obj;
     if (dialog.length == 0) {
-        console.log('Dialog ' + el + ' not found!');
+        if (window.METRO_DEBUG) console.log('Dialog ' + el + ' not found!');
         return false;
     }
 
     dialog_obj = dialog.data('dialog');
 
     if (dialog_obj == undefined) {
-        console.log('Element not contain role dialog! Please add attribute data-role="dialog" to element ' + el);
+        if (window.METRO_DEBUG) console.log('Element not contain role dialog! Please add attribute data-role="dialog" to element ' + el);
         return false;
     }
 
@@ -4942,14 +4942,14 @@ window.showMetroDialog = function (el, place){
 window.hideMetroDialog = function(el){
     var dialog = $(el), dialog_obj;
     if (dialog.length == 0) {
-        console.log('Dialog ' + el + ' not found!');
+        if (window.METRO_DEBUG) console.log('Dialog ' + el + ' not found!');
         return false;
     }
 
     dialog_obj = dialog.data('dialog');
 
     if (dialog_obj == undefined) {
-        console.log('Element not contain role dialog! Please add attribute data-role="dialog" to element ' + el);
+        if (window.METRO_DEBUG) console.log('Element not contain role dialog! Please add attribute data-role="dialog" to element ' + el);
         return false;
     }
 
@@ -4959,14 +4959,14 @@ window.hideMetroDialog = function(el){
 window.toggleMetroDialog = function(el, place){
     var dialog = $(el), dialog_obj;
     if (dialog.length == 0) {
-        console.log('Dialog ' + el + ' not found!');
+        if (window.METRO_DEBUG) console.log('Dialog ' + el + ' not found!');
         return false;
     }
 
     dialog_obj = dialog.data('dialog');
 
     if (dialog_obj == undefined) {
-        console.log('Element not contain role dialog! Please add attribute data-role="dialog" to element ' + el);
+        if (window.METRO_DEBUG) console.log('Element not contain role dialog! Please add attribute data-role="dialog" to element ' + el);
         return false;
     }
 
