@@ -92,7 +92,10 @@
       $date=date('Y-m-d');
       
             
-        $matricule= @mysql_real_escape_string(htmlentities($_POST['nomeleve']));
+        $matricule = filter_var(
+            htmlentities($_POST['nomeleve']),
+            FILTER_SANITIZE_FULL_SPECIAL_CHARS
+        );
         $datedebut= htmlentities($_POST['datedebut']);
         $datefin=htmlentities($_POST['datefin']);
         $mois=htmlentities($_POST['mois']);

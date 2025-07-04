@@ -137,7 +137,10 @@ require_once('class/__update_old_year.php');
     	$selection_article=$bdd->query("SELECT * FROM  tempons");
     	  while ($tabdonnees=$selection_article->fetch()){
           $devise=$tabdonnees['devise'];
-          $article=@mysql_real_escape_string($tabdonnees['libelle']);
+          $article = filter_var(
+              $tabdonnees['libelle'],
+              FILTER_SANITIZE_FULL_SPECIAL_CHARS
+          );
           $compte=$tabdonnees['compte'];
           $article=$article.'('.$old_annee.')';
           $article1=filtrageVariable($tabdonnees['libelle']);

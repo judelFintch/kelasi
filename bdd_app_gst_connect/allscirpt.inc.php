@@ -41,21 +41,18 @@ function searcheEleves(){
     $dynamiqueTables='b'.$concat;
     return $dynamiqueTables;
   }
-//filtrage de variable 
-    function filtrageVariable($string){
-    $variable =@mysql_real_escape_string($string);
-           if(ctype_digit($string))
-        {
-            $string = intval($string);
-        }
-        // Pour tous les autres types
-        else
-        {
-            $string =@mysql_real_escape_string($string);
-            $string = addcslashes($string, '%_');
-        }
-        return $string;
-  }
+// Filtrage de variable
+function filtrageVariable($string)
+{
+    if (ctype_digit($string)) {
+        $string = intval($string);
+    } else {
+        $string = filter_var($string, FILTER_SANITIZE_FULL_SPECIAL_CHARS);
+        $string = addcslashes($string, '%_');
+    }
+
+    return $string;
+}
   function selectionClasse(){
     global $bdd;
     $classe=$bdd->query('SELECT nomclasse FROM classe order by niveau desc') or die(print_r($bbdd->errorInfo()));

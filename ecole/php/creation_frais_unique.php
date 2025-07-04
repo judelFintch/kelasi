@@ -32,14 +32,20 @@ require_once('../../bdd_app_gst_connect/allscirpt.inc.php');
     	  if(!empty($section)&&!empty($libelle)&&!empty($devise)&&!empty($prix)){
     	  	//verification de la devise
     	  	  if($devise=='USD'){
-    	  	  	$section=htmlspecialchars($section);
-    	  	  	$libelle=@mysql_real_escape_string($libelle);
+                        $section = htmlspecialchars($section);
+                        $libelle = filter_var(
+                            $libelle,
+                            FILTER_SANITIZE_FULL_SPECIAL_CHARS
+                        );
     	        insertionNewFraisUsd($section,$devise,$prix,$libelle,$classer,$specification,$compte,$annacad_art);
     	  	  	echo 1;
     	  	  }
     	  	   if($devise=='CDF'){
-    	  	  	$section=htmlspecialchars($section);
-    	  	  	$libelle=@mysql_real_escape_string($libelle);
+                        $section = htmlspecialchars($section);
+                        $libelle = filter_var(
+                            $libelle,
+                            FILTER_SANITIZE_FULL_SPECIAL_CHARS
+                        );
     	        insertionNewFraisCdf($section,$devise,$prix,$libelle,$classer,$specification,$compte,$annacad_art);
     	  	  	echo 1;
     	  	}

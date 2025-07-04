@@ -600,7 +600,7 @@ echo 1;
  function AutoUpdateMonth20162017($mois,$matricule,$annacad){
 global $bdd;
 
- $mois= @mysql_real_escape_string($mois);
+ $mois = filter_var($mois, FILTER_SANITIZE_FULL_SPECIAL_CHARS);
 switch ($mois) {
           case 'Septembre':
             # code...
@@ -743,7 +743,7 @@ if(isset($_POST['mois']) AND isset($_POST['matricule']) AND isset($_POST['ChoixD
  if(isset($_POST['matricule_vente']) || !empty($_POST['matricule_vente'])){
  	extract($_POST);
  	$id=5;
-  	$libelle=@mysql_real_escape_string($libelle);
+        $libelle = filter_var($libelle, FILTER_SANITIZE_FULL_SPECIAL_CHARS);
   	$deviseUniqueArticle;
  	insertionElementTemponsVente($id,$libelle,$matricule_vente,$qteAcheter,$annacad,$deviseUniqueArticle);
  	echo 1;

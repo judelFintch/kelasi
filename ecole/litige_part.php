@@ -102,12 +102,12 @@ $cdf=0;
 echo $annacad;
 if($_POST['classe']==1){
 
-echo $type=@mysql_real_escape_string($_POST['type']);
+echo $type = filter_var($_POST['type'], FILTER_SANITIZE_FULL_SPECIAL_CHARS);
 $requete = $bdd->query("SELECT * FROM `finance` WHERE `motif` LIKE '%$type%' and anne_acad='$annacad' and pour_annee='$annacad' ORDER BY `id` DESC  ") or die(print_r($bdd->errorinfo()));
  }
  else{
 
-echo $type=@mysql_real_escape_string($_POST['type']);
+echo $type = filter_var($_POST['type'], FILTER_SANITIZE_FULL_SPECIAL_CHARS);
 $classe=$_POST['classe'];
 $requete = $bdd->query("SELECT * FROM finance WHERE  anne_acad='$annacad' and classe_eleve in('$classe') and motif in('$type') and pour_annee='$annacad   ORDER BY nom_eleve ASC ")or die(print_r($bdd->errorinfo()));
  }

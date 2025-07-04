@@ -32,10 +32,10 @@ function EffectuerUneDepense($montant,$motif,$devise,$compte,$nom,$numcompte,$da
    	$selection_id_depense=$bdd->query("SELECT id FROM depense order by id desc limit 1");
    	$id=$selection_id_depense->fetch();
    	$id='D'.$id['id'];
-    $libelle=@mysql_real_escape_string($libelle);
-    $motif=@mysql_real_escape_string($motif);
-    $compte=@mysql_real_escape_string($compte);
-    $nom=@mysql_real_escape_string($nom);
+    $libelle = filter_var($libelle, FILTER_SANITIZE_FULL_SPECIAL_CHARS);
+    $motif   = filter_var($motif, FILTER_SANITIZE_FULL_SPECIAL_CHARS);
+    $compte  = filter_var($compte, FILTER_SANITIZE_FULL_SPECIAL_CHARS);
+    $nom     = filter_var($nom, FILTER_SANITIZE_FULL_SPECIAL_CHARS);
 					if($devise=="USD"){
 			    $bdd->exec("INSERT INTO depense VALUES('','$id','$montant','00','$devise','$motif','$date_op','$annacad','$compte','$nom','1','$user','$numcompte')")or die(print_r($bdd->errorInfo()));
 				echo '<p style="color:green;" align="center">Fait correctement!</p>';

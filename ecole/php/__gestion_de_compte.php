@@ -33,14 +33,14 @@ require_once('../../bdd_app_gst_connect/allscirpt.inc.php');
    //creation du compte depense
    if(isset($_POST['compte_d'])){
     extract($_POST);
-    $libelle=@mysql_real_escape_string($libelle);
+    $libelle = filter_var($libelle, FILTER_SANITIZE_FULL_SPECIAL_CHARS);
     $execuction_cmd=insertionCompte($compte_d,$libelle);
     echo $execuction_cmd;
    
    }
    if(isset($_POST['libelle'])){
     extract($_POST);
-    $libelle=@mysql_real_escape_string($libelle);
+    $libelle = filter_var($libelle, FILTER_SANITIZE_FULL_SPECIAL_CHARS);
     $numero_compte=VerificationInformationCompteSecond($libelle);
     echo $numero_compte['numero_de_compte'];
 
