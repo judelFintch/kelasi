@@ -4,8 +4,10 @@ require_once('../bdd_app_gst_connect/allscirpt.inc.php');
     function verificationUser($login){
     	global $bdd;
 
-    	$requete = $bdd->query("SELECT * FROM user WHERE login='$login'");
-		$resultat = $requete->fetch();
+        $requete = $bdd->prepare('SELECT * FROM user WHERE login = :login');
+        $requete->bindParam(':login', $login);
+        $requete->execute();
+        $resultat = $requete->fetch();
 		if($resultat == 0){
 			echo 0;
 		}
