@@ -2,8 +2,11 @@
    function Authenfication($login,$passwd){
 		global $bdd;	
 		//requette
-		$requete = $bdd->query("SELECT * FROM user WHERE login='$login' AND motp='$passwd'");
-		$resultat = $requete->fetch();
+                $requete = $bdd->prepare('SELECT * FROM user WHERE login = :login AND motp = :passwd');
+                $requete->bindParam(':login', $login);
+                $requete->bindParam(':passwd', $passwd);
+                $requete->execute();
+                $resultat = $requete->fetch();
 		if($resultat == 0){
 			echo '<div class="alert alert-danger" id="cont" ><h3><center>Authenfication echouée!</h3></center></p><br /><br />';
 		 }
