@@ -17,9 +17,8 @@ $token = $_SESSION['token'] = bin2hex(random_bytes(32));
 
     <script src="js/jquery-2.1.3.min.js"></script>
     <script src="js/metro.js"></script>
-</head>
 
- <style>
+    <style>
         .login-form {
             width: 25rem;
             height: 18.75rem;
@@ -55,9 +54,9 @@ $token = $_SESSION['token'] = bin2hex(random_bytes(32));
             });
         });
     </script>
+</head>
 
-     
-  		<body class="bg-darkTeal">
+<body class="bg-darkTeal">
     <div class="login-form padding20 block-shadow">
         <form class="formValidation" method="post">
             <h1 class="text-light">Karibu </h1>
