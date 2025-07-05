@@ -1,5 +1,5 @@
-<?php 
-  session_start();if(isset($_SESSION['user'])){ require_once('../bdd_app_gst_connect/allscirpt.inc.php');} else{header("Location:../index.php"); 
+<?php
+  session_start();if(isset($_SESSION['user'])){ require_once('../bdd_app_gst_connect/allscirpt.inc.php');} else{header("Location:../index.php");
 }?>
 <!DOCTYPE html>
    <html>
@@ -24,7 +24,7 @@ scale=1.0">
                           echo   $info_entete['email'].'';
                           echo  $info_entete['adresse'].'';?>
             </a>
-  </div> 
+  </div>
   <div class="col-md-5">
   <form action="" method="post">
     <button name="update" class="form-control">UPDATE</button>
@@ -50,20 +50,20 @@ scale=1.0">
 
       <ul class="nav navbar-nav">
         <a class="navbar-brand" href="accueil.php">Accueil </a>
-      <?php 
+      <?php
 
          if($_SESSION['level']==1 or $_SESSION['level']==6 ){ echo '
            <li class="dropdown">
             <a href="classe.php" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true">Finance <span class="caret"></span></a>
            <ul class="dropdown-menu">
           <li><a href="inscription.php">Inscription</a></li>
-            <li><a href="reinsciption.php">Réinscription</a></li> 
-            <li><a href="autres.php">Autres Frais</a></li>          
+            <li><a href="reinsciption.php">Réinscription</a></li>
+            <li><a href="autres.php">Autres Frais</a></li>
           </ul>
         </li>
         ';
         }
-        ?>
+?>
           <li class="dropdown">
           <ul class="dropdown-menu">
           <li><a href="inscr.php">Inscription</a></li>
@@ -87,12 +87,12 @@ scale=1.0">
       echo '
         <li><a href="secure_d.php?id=6">Depense</a></li>
          ';}
-        ?>
+?>
 
         <li class="dropdown">
          <a href="rapport_finance.php" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Rapports <span class="caret"></span></a>
         <ul class="dropdown-menu">
-           
+
             <li><a href="secure_d.php?id=5">Entrée et Sortie </a></li>
             <li><a href="situation _all_year.php">Situation Générale</a></li>
             <li><a href="autres_frais.php">Autres Frais</a></li>
@@ -106,9 +106,9 @@ scale=1.0">
         <li class="dropdown">
          <a href="deconnexion.php" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="user">Suivis Elève</span> <span class="caret"></span></a>
         <ul class="dropdown-menu">
-      
+
         <li><a href="situation _all_year.php">Situation Générale</a></li>
-        <li><a href="vendetor.php">Litige</a></li> 
+        <li><a href="vendetor.php">Litige</a></li>
           </ul>
         </li>
       </ul>
@@ -129,50 +129,50 @@ scale=1.0">
             <li><a href="secure_d.php?id=8">Creation Frais Unique</a></li>
               ';
              }?>
-            
+
           </ul>
         </li>
 
       <li class="dropdown">
          <a href="operation.php" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Gestion Articles <span class="caret"></span></a>
         <ul class="dropdown-menu">
-      
+
   <?php   if($_SESSION['level']==6){
           echo '
-            
+
             <li><a href="secure_d.php?id=2">Création et Appro articles</a></li>
              <li><a href="secure_d.php?id=9">Stock Article</a></li>
-            
+
               ';
              }?>
-            
+
           </ul>
         </li>
-     
+
       </ul>
 
       <ul class="nav navbar-right ">
         <li class="dropdown">
          <a href="deconnexion.php" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="user"><?php  echo  $_SESSION['user'];?></span> <span class="caret"></span></a>
         <ul class="dropdown-menu">
-      
+
         <li><a href="#"  data-toggle="modal" data-target="#myModal1">Modifier informations</a></li>
         <li><a href="#">Mot de Passe</a></li>
-  
-             <li><a href="deconnexion.php">Déconnexion</a></li> 
+
+             <li><a href="deconnexion.php">Déconnexion</a></li>
           </ul>
         </li>
       </ul>
 
-      
+
     <!-- /.navbar-collapse -->
-  
-</nav> 
+
+</nav>
 <font color="royalbleu">
 <div class="alert alert-info" role="alert" id="notification">
-<?php  echo '<a href="rapport.php?du='.date('Y-m-d').'& au='.date('Y-m-d').'">'?> 
+<?php  echo '<a href="rapport.php?du='.date('Y-m-d').'& au='.date('Y-m-d').'">'?>
                     <span class="badge">
-                         <?php  echo  numeberormat($mont_usd);?> USD || 
+                         <?php  echo  numeberormat($mont_usd);?> USD ||
                          <?php  echo  numeberormat($mont_cdf);?> CDF </span></a>
      <b> <span id="date_heure"></span><script type="text/javascript">window.onload = date_heure('date_heure');</script> || <a href="eleves.php">Eleve(s) <span class="badge"> <?php echo $comtpeur?> (G <?php echo $garcon ?>)  (F <?php echo $fille ?>) Cas Abandon( <?php echo $abadon?>)
         </span></a>  || <a href="secure_d.php?id=4">Taux :<?php  echo $taux;?></a>
@@ -185,7 +185,5 @@ scale=1.0">
 <script type="text/javascript" src="js/__search.js"></script>
 <script type="text/javascript" src="js/__gestionMounth.js"></script>
 <?php $id=rand(1,4); $salutation=salutation($id);
-      $user=$_SESSION['user'];
-  ?>
-
- 
+$user=$_SESSION['user'];
+?>
