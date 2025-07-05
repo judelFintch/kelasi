@@ -17,5 +17,7 @@ require_once('../bdd_app_gst_connect/allscirpt.inc.php');
 if(isset($_POST['user_login']) or !empty($_POST['user_login']) ){
 	$login=$_POST['user_login'];
 	
-	verificationUser($login);
+        verificationUser($login);
 }
+
+?>
