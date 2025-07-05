@@ -39,7 +39,7 @@
     }
 //verification de  l envois du formulaire
 if(isset($_POST['login_user']) || isset($_POST['user_password'])){
-	Authenfication($_POST['login_user'],$_POST['user_password']);
+        Authenfication($_POST['login_user'],$_POST['user_password']);
 }
 
-
+?>
